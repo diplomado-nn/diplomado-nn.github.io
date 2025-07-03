@@ -746,6 +746,31 @@ body {
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
+    .hero-section {
+        padding: 3rem 2rem;
+    }
+    
+    .title-main {
+        font-size: 2.8rem;
+    }
+    
+    .title-accent {
+        font-size: 2rem;
+    }
+    
+    .value-propositions {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .overview-section {
+        gap: 1.5rem;
+    }
+    
+    .modules-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    
     .instructors-grid {
         gap: 1.5rem;
     }
@@ -761,140 +786,127 @@ body {
     .instructor-description {
         font-size: 0.75rem;
     }
+    
+    .details-section {
+        gap: 2rem;
+    }
+    
+    .pricing-card, .payment-card {
+        padding: 2.5rem;
+    }
 }
 
 @media (max-width: 768px) {
     .hero-section {
         padding: 2rem 1rem;
+        min-height: 90vh;
+    }
+    
+    .header-visual {
+        margin-bottom: 2rem;
     }
     
     .header-svg {
-        max-width: 700px;
+        max-width: 100%;
+        height: auto;
     }
     
     .title-main {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        line-height: 1.2;
     }
     
     .title-accent {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .engagement-tagline {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .engagement-description {
+        text-align: center;
+    }
+    
+    .description-primary {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .description-secondary {
+        font-size: 1rem;
+        margin-top: 1.5rem;
     }
     
     .value-propositions {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin: 2rem 0;
     }
     
     .value-item {
         flex-direction: column;
         text-align: center;
         gap: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .value-icon {
+        font-size: 2rem;
     }
     
     .overview-section {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-    }
-    
-    .modules-grid {
-        grid-template-columns: 1fr;
-        padding: 0 1rem;
-    }
-    
-    .details-section {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .section-title {
-        font-size: 2rem;
-    }
-    
-    .cta-container h2 {
-        font-size: 2rem;
-    }
-    
-    .cta-button-primary,
-    .cta-button-secondary {
-        display: block;
-        width: 100%;
-        margin: 0.5rem 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-section {
-        padding: 1.5rem 1rem;
-    }
-    
-    .header-svg {
-        max-width: 500px;
-    }
-    
-    .title-main {
-        font-size: 2rem;
-    }
-    
-    .title-accent {
-        font-size: 1.5rem;
-    }
-    
-    .engagement-tagline {
-        font-size: 1.1rem;
-    }
-    
-    .value-item {
-        padding: 1.5rem;
-    }
-    
-    .description-primary,
-    .description-secondary {
-        font-size: 1rem;
-    }
-    
-    .container {
-        padding: 0 1rem;
+        padding: 3rem 0;
     }
     
     .overview-card {
         padding: 2rem 1.5rem;
     }
     
+    .curriculum-section {
+        padding: 3rem 0;
+    }
+    
+    .modules-grid {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+        gap: 1.5rem;
+    }
+    
     .module-card {
         padding: 2rem;
     }
     
-    .pricing-card,
-    .instructors-card {
-        padding: 2rem;
-    }
-    
-    .cta-section {
+    .details-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
         padding: 3rem 0;
     }
     
-    .qr-section {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
+    .pricing-card, .payment-card {
+        padding: 2rem;
     }
     
-    .payment-item {
+    .price-tier {
         flex-direction: column;
-        text-align: left;
+        text-align: center;
         gap: 0.5rem;
     }
     
-    .payment-label {
-        min-width: auto;
-        margin-right: 0;
+    .price-amount {
+        font-size: 1.5rem;
     }
     
-    .payment-value {
-        text-align: left;
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .instructors-section {
+        padding: 3rem 0;
     }
     
     .instructors-grid {
@@ -904,21 +916,398 @@ body {
     
     .instructor-card {
         padding: 2rem;
-        max-width: 500px;
+        max-width: 400px;
         margin: 0 auto;
     }
     
-    .photo-placeholder {
-        width: 120px;
-        height: 120px;
-        font-size: 3rem;
+    .cta-section {
+        padding: 4rem 0;
     }
     
-    .instructor-content h3 {
+    .cta-container h2 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    
+    .cta-button-primary,
+    .cta-button-secondary {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 1.5rem 0.75rem;
+        min-height: 85vh;
+    }
+    
+    .header-visual {
+        margin-bottom: 1.5rem;
+    }
+    
+    .header-svg {
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+    
+    .title-main {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+    }
+    
+    .title-accent {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .engagement-tagline {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .description-primary {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+    
+    .description-secondary {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-top: 1.5rem;
+    }
+    
+    .value-item {
+        padding: 1.25rem;
+    }
+    
+    .value-icon {
+        font-size: 1.8rem;
+    }
+    
+    .value-text h4 {
+        font-size: 1rem;
+    }
+    
+    .value-text p {
+        font-size: 0.85rem;
+    }
+    
+    .container {
+        padding: 0 0.75rem;
+    }
+    
+    .overview-section {
+        padding: 2rem 0;
+    }
+    
+    .overview-card {
+        padding: 1.5rem 1rem;
+    }
+    
+    .overview-card h3 {
+        font-size: 1rem;
+    }
+    
+    .overview-card p {
+        font-size: 1.1rem;
+    }
+    
+    .curriculum-section {
+        padding: 2rem 0;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .modules-grid {
+        padding: 0 0.5rem;
+    }
+    
+    .module-card {
+        padding: 1.5rem;
+    }
+    
+    .module-card h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .module-card p {
+        font-size: 0.85rem;
+    }
+    
+    .details-section {
+        padding: 2rem 0;
+    }
+    
+    .pricing-card, .payment-card {
+        padding: 1.5rem;
+    }
+    
+    .pricing-card h3, .payment-card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .price-tier {
+        padding: 1rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .price-label {
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .price-amount {
         font-size: 1.3rem;
     }
     
+    .benefit-item {
+        font-size: 0.85rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .payment-item {
+        flex-direction: column;
+        text-align: left;
+        gap: 0.25rem;
+        padding: 0.75rem 1rem;
+    }
+    
+    .payment-label {
+        font-size: 0.8rem;
+        min-width: auto;
+        margin-right: 0;
+        margin-bottom: 0.25rem;
+    }
+    
+    .payment-value {
+        font-size: 0.85rem;
+        text-align: left;
+        font-weight: 600;
+    }
+    
+    .qr-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .qr-text {
+        font-size: 0.8rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .qr-link {
+        font-size: 0.75rem;
+        word-break: break-word;
+    }
+    
+    .qr-code-image {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .instructors-section {
+        padding: 2rem 0;
+    }
+    
+    .instructors-grid {
+        gap: 1.5rem;
+    }
+    
+    .instructor-card {
+        padding: 1.5rem;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .photo-placeholder {
+        width: 100px;
+        height: 100px;
+        font-size: 2.5rem;
+    }
+    
+    .instructor-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .instructor-photo {
+        margin-bottom: 1.5rem;
+    }
+    
+    .instructor-content h3 {
+        font-size: 1.1rem;
+        line-height: 1.3;
+    }
+    
+    .instructor-title {
+        font-size: 0.8rem;
+        margin-bottom: 0.75rem;
+    }
+    
     .instructor-description {
+        font-size: 0.8rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+    
+    .cta-section {
+        padding: 2.5rem 0;
+    }
+    
+    .cta-container h2 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+    
+    .cta-container p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cta-button-primary,
+    .cta-button-secondary {
+        padding: 0.9rem 1.5rem;
+        font-size: 1rem;
+        margin: 0.25rem 0;
+    }
+}
+
+/* Mobile-first improvements */
+@media (max-width: 375px) {
+    .hero-section {
+        padding: 1rem 0.5rem;
+    }
+    
+    .container {
+        padding: 0 0.5rem;
+    }
+    
+    .title-main {
+        font-size: 1.6rem;
+    }
+    
+    .title-accent {
+        font-size: 1.2rem;
+    }
+    
+    .engagement-tagline {
         font-size: 0.9rem;
+    }
+    
+    .description-primary,
+    .description-secondary {
+        font-size: 0.9rem;
+    }
+    
+    .value-item {
+        padding: 1rem;
+    }
+    
+    .overview-card {
+        padding: 1.25rem 0.75rem;
+    }
+    
+    .module-card {
+        padding: 1.25rem;
+    }
+    
+    .pricing-card, .payment-card {
+        padding: 1.25rem;
+    }
+    
+    .instructor-card {
+        padding: 1.25rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .cta-container h2 {
+        font-size: 1.4rem;
+    }
+    
+    .cta-button-primary,
+    .cta-button-secondary {
+        padding: 0.8rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Touch and interaction improvements */
+@media (hover: none) and (pointer: coarse) {
+    .value-item:hover,
+    .overview-card:hover,
+    .module-card:hover,
+    .instructor-card:hover {
+        transform: none;
+    }
+    
+    .value-item:active,
+    .overview-card:active,
+    .module-card:active,
+    .instructor-card:active {
+        transform: scale(0.98);
+    }
+    
+    .cta-button-primary:hover,
+    .cta-button-secondary:hover {
+        transform: none;
+    }
+    
+    .cta-button-primary:active,
+    .cta-button-secondary:active {
+        transform: scale(0.95);
+    }
+}
+
+/* Improved text readability for mobile */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .engagement-description {
+        margin-bottom: 2rem;
+    }
+    
+    .value-text h4 {
+        line-height: 1.3;
+    }
+    
+    .value-text p {
+        line-height: 1.4;
+    }
+    
+    .module-card h4 {
+        line-height: 1.3;
+    }
+    
+    .module-card p {
+        line-height: 1.4;
+    }
+    
+    .instructor-content h3 {
+        line-height: 1.2;
+    }
+    
+    .instructor-description {
+        line-height: 1.4;
     }
 }
