@@ -669,6 +669,7 @@ body {
     transform: translateY(-2px);
 }
 
+
 /* CTA Section */
 .cta-section {
     padding: 5rem 0;
@@ -920,6 +921,7 @@ body {
         margin: 0 auto;
     }
     
+    
     .cta-section {
         padding: 4rem 0;
     }
@@ -1133,6 +1135,7 @@ body {
         margin: 0;
     }
     
+    
     .photo-placeholder {
         width: 100px;
         height: 100px;
@@ -1233,6 +1236,7 @@ body {
     .instructor-card {
         padding: 1.25rem;
     }
+    
     
     .section-title {
         font-size: 1.4rem;
