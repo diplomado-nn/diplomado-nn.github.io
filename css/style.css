@@ -1414,8 +1414,8 @@ body {
 }
 
 .author-photo .photo-placeholder {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background: linear-gradient(135deg, rgba(255, 140, 0, 0.1), rgba(255, 165, 0, 0.05));
     border-radius: 50%;
     display: flex;
@@ -1428,8 +1428,8 @@ body {
 }
 
 .author-image {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid rgba(255, 140, 0, 0.3);
@@ -1634,3 +1634,102 @@ body {
         transform: scale(0.98);
     }
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Introduction Section */
+.introduction-section {
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+    background: linear-gradient(135deg, rgba(15, 20, 25, 0.95), rgba(25, 30, 35, 0.9));
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 140, 0, 0.1);
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.intro-text {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.intro-text strong {
+    color: #FFAC00;
+    font-weight: 700;
+}
+
+.intro-highlight {
+    background: linear-gradient(135deg, rgba(45, 50, 55, 0.9), rgba(35, 40, 45, 0.8));
+    padding: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 140, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin: 3rem 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    transition: all 0.3s ease;
+}
+
+.intro-highlight:hover {
+    border-color: rgba(255, 140, 0, 0.4);
+    box-shadow: 0 15px 40px rgba(255, 140, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.highlight-icon {
+    font-size: 3rem;
+    filter: grayscale(100%) brightness(1.2);
+    flex-shrink: 0;
+}
+
+.highlight-content h4 {
+    color: #FFAC00;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.highlight-content p {
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.highlight-content p strong {
+    color: #FFA500;
+    font-weight: 700;
+}
+
+.intro-conclusion {
+    color: #cccccc;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.intro-conclusion strong {
+    color: #FFAC00;
+    font-weight: 700;
+}
+
+/* Overview Section */
