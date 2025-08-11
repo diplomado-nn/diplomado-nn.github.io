@@ -3,576 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diplomado en Fundamentos de Redes Neuronales Artificiales</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/hero-section.css">
-    <link rel="stylesheet" href="css/FAQ.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Diplomado Neural Networks</title>
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/home/testimonials.css">
+    <link rel="stylesheet" href="src/css/home/hero-section.css">
+    <link rel="stylesheet" href="src/css/home/content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="parallax-bg" id="parallaxBg"></div>
-    <div class="parallax-bg-2" id="parallaxBg2"></div>
-    
-    <header class="hero-section">
+    <div class="page-wrapper">
+        <header class="header" id="header">
+            <div class="header-container">
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                    <a href="src/components/recursos.html" class="nav-link">Recursos</a>
+                    <a href="src/components/about.html" class="nav-link">Sobre Nosotros</a>
+                </nav>
+            </div>
+        </header>
+
+    <section class="hero" id="hero">
         <div class="hero-container">
-            <!-- Header SVG as main visual impact -->
-            <div class="header-visual">
-                <img src="assets/header.svg" alt="Neural Network Header" class="header-svg">
+            <div class="hero-content">
+                <div class="hero-text">
+                    
+                    <h1 class="hero-title">
+                        Comprende los <span class="hero-title-highlight">fundamentos matemáticos</span> de las Redes Neuronales Artificiales
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Sumérgete en el fascinante mundo de las redes neuronales artificiales y descubre los 
+                        fundamentos matemáticos que impulsan la revolución tecnológica actual. Diseñado para 
+                        estudiantes y profesionales que buscan comprender a profundidad el funcionamiento, 
+                        capacidades y limitaciones de estos poderosos modelos.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="./src/components/recursos.html" class="hero-btn hero-btn-primary">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                            </svg>
+                            Explorar Recursos
+                        </a>
+                        <a href="./src/components/about.html" class="hero-btn hero-btn-secondary">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                            </svg>
+                            Nuestra Filosofía
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <h3 class="hero-stat-number">🧠</h3>
+                                <p class="hero-stat-label">Modelado Matemático</p>
+                            </div>
+                            <div class="hero-stat">
+                                <h3 class="hero-stat-number">⚡</h3>
+                                <p class="hero-stat-label">Implementación Práctica</p>
+                            </div>
+                            <div class="hero-stat">
+                                <h3 class="hero-stat-number">🔬</h3>
+                                <p class="hero-stat-label">Enfoque Científico</p>
+                            </div>
+                            <div class="hero-stat">
+                                <h3 class="hero-stat-number">🚀</h3>
+                                <p class="hero-stat-label">Comprensión Profunda</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-floating-elements">
+                        <div class="floating-element">
+                            <svg fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div class="floating-element">
+                            <svg fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                                <path d="M6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
+                            </svg>
+                        </div>
+                        <div class="floating-element">
+                            <svg fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content" id="content">
+        <div class="content-container">
+            <div class="content-header">
+                <h2 class="content-title">Contenido Temático</h2>
+                <p class="content-subtitle">
+                    Un currículo estructurado y progresivo que te llevará desde los fundamentos hasta las implementaciones y aplicaciones más avanzadas en redes neuronales.
+                </p>
             </div>
             
-            <!-- Engagement Content -->
-            <div class="engagement-content">
-                <h2 class="engagement-title">
-                    <span class="title-accent">Transforma tu carrera profesional</span>
-                    <span class="title-main">DOMINANDO LA INTELIGENCIA ARTIFICIAL</span>
-                </h2>
+            <div class="content-modules">
+                <!-- Modules will be loaded dynamically from JSON -->
+            </div>
+            
+            <div class="content-stats">
+                <div class="content-stat">
+                    <span class="stat-number">140</span>
+                    <p class="stat-label">Horas de Contenido</p>
+                </div>
+                <div class="content-stat">
+                    <span class="stat-number">5</span>
+                    <p class="stat-label">Módulos Especializados</p>
+                </div>
+                <div class="content-stat">
+                    <span class="stat-number">100%</span>
+                    <p class="stat-label">Contenido Actualizado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <h2 class="testimonials-title">Testimonios de Nuestros Estudiantes</h2>
+            <p class="testimonial-subtitle">
+                Conoce las experiencias de quienes ya han tomado cursos con nosotros.
+            </p>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <!-- Testimonials will be loaded dynamically from JSON -->
+                </div>
                 
-                <p class="engagement-tagline">
-                    El futuro pertenece a quienes comprenden el funcionamiento detrás de la IA
-                </p>
+                <button class="carousel-nav carousel-nav-prev" id="prevBtn">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                </button>
                 
-                <div class="engagement-description">
-                    <p class="description-primary">
-                        Sumérgete en el <strong>fascinante mundo de las redes neuronales artificiales</strong> y descubre los 
-                        fundamentos matemáticos que impulsan la revolución tecnológica actual. Este diplomado está diseñado para 
-                        estudiantes y profesionales que buscan comprender a profundidad el <strong>funcionamiento, capacidades y 
-                        limitaciones</strong> de estos poderosos modelos.
-                    </p>
-
-            <!-- Introduction Section -->
-            <div class="introduction-section">
-                <div class="container">
-                <h2 class="section-title">¿POR QUÉ ESTE DIPLOMADO?</h2>
-                <div class="intro-content">
-                    <p class="intro-text">
-                        El enfoque reciente del uso de las redes neuronales artificiales (RNA) ha sido mayoritariamente como un instrumento auxiliar en el procesamiento de datos ya sea para tareas de clasificación o regresión. Sin embargo, el gran poder de estos modelos ya existentes ha contribuido al desarrollo de herramientas que hagan más fácil su uso.
-                    </p>
-                    
-                    <p class="intro-text">
-                        Desde el punto de vista de formación de nuevos investigadores, existe la tendencia de solo resolver un problema académico/científico a través del uso de estos modelos sin realmente contribuir de alguna manera al modelado matemático. <strong>Consideramos que estudiantes e investigadores en formación dentro de esta área deben adquirir una comprensión profunda del modelado matemático</strong> de los procesos llevados a cabo en un cerebro, no necesariamente humano, para procesar información. En este sentido, nuestro diplomado es una contribución, aportando los <strong>fundamentos matemáticos de las RNA</strong> para la formación de estos estudiantes. 
-                    </p>
-                    
-                    <div class="intro-highlight">
-                        <div class="highlight-icon">🔬</div>
-                        <div class="highlight-content">
-                            <h4>Nuestra Visión</h4>
-                            <p>Esperamos despertar el interés de los participantes a continuar aprendiendo y eventualmente ser testigos de nuevos descubrimientos científicos dados por personas que ahora darán sus primeros pasos en esta disciplina.</p>
-                        </div>
-                    </div>
-                    
-                    <p class="intro-conclusion">
-                        A partir de este trabajo deseamos nosotros también <strong>mejorar y aprender</strong> como en un futuro continuar apoyando de mejor manera a más personas interesadas en iniciar una carrera en el campo de la inteligencia artificial.
-                    </p>
-                </div>
-                </div>
+                <button class="carousel-nav carousel-nav-next" id="nextBtn">
+                    <svg fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                </button>
             </div>
-
-    <section class="info-section">
-        <div class="container">
-            <!-- Program Overview -->
-                    
-                    <div class="value-propositions">
-                        <div class="value-item">
-                            <div class="value-icon">🧠</div>
-                            <div class="value-text">
-                                <h4>Comprende la teoría</h4>
-                                <p>Matemáticas y algoritmos fundamentales</p>
-                            </div>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-icon">⚡</div>
-                            <div class="value-text">
-                                <h4>Aplica en la práctica</h4>
-                                <p>Diseña y optimiza tus propios modelos</p>
-                            </div>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-icon">🚀</div>
-                            <div class="value-text">
-                                <h4>Impulsa tu carrera</h4>
-                                <p>Conviértete en especialista en IA</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <p class="description-secondary">
-                        Desarrolla las competencias necesarias para <strong>predecir, clasificar y generar</strong> información 
-                        mediante algoritmos avanzados, posicionándote como un experto en una de las áreas más demandadas del mercado 
-                        tecnológico.
-                    </p>
-                </div>
-
-
-            </div>
-        </div>
-    </header>
-
-    <section class="info-section">
-        <div class="container">
-            <!-- Program Overview -->
-            <div class="overview-section">
-                <div class="overview-card">
-                    <div class="card-icon">🎓</div>
-                    <h3>MODALIDAD</h3>
-                    <p>En Línea</p>
-                </div>
-                <div class="overview-card">
-                    <div class="card-icon">⏱️</div>
-                    <h3>DURACIÓN</h3>
-                    <p>140 Horas</p>
-                </div>
-                <div class="overview-card">
-                    <div class="card-icon">📅</div>
-                    <h3>PERIODO</h3>
-                    <p>Otoño 2025</p>
-                </div>
-            </div>
-
-            <!-- Curriculum Section -->
-            <div class="curriculum-section">
-                <h2 class="section-title">CONTENIDO TEMÁTICO</h2>
-                <div class="modules-grid">
-                    <div class="module-card">
-                        <div class="module-number">01</div>
-                        <h4>REDES NEURONALES COMPLETAMENTE CONECTADAS</h4>
-                        <p>Fundamentos y arquitectura básica de las redes neuronales artificiales</p>
-                    </div>
-                    <div class="module-card">
-                        <div class="module-number">02</div>
-                        <h4>AUTOENCODERS</h4>
-                        <p>Técnicas de compresión y representación de datos mediante redes neuronales</p>
-                    </div>
-    
-                    <div class="module-card">
-                        <div class="module-number">03</div>
-                        <h4>REDES NEURONALES GENERATIVAS</h4>
-                        <p>Generación de datos y modelado probabilístico avanzado</p>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-number">04</div>
-                        <h4>REDES NEURONALES RECURRENTES</h4>
-                        <p>Procesamiento de secuencias y memoria temporal en modelos neurales</p>
-                    </div>
-
-                    <div class="module-card">
-                        <div class="module-number">05</div>
-                        <h4>MÁQUINAS DE BOLTZMANN</h4>
-                        <p>Modelos estocásticos y aprendizaje no supervisado</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Pricing and Details -->
-            <div class="details-section">
-                <div class="pricing-card">
-                    <h3>INVERSIÓN</h3>
-                    <div class="price-tier premium">
-                        <div class="price-label">Estudiantes BUAP</div>
-                        <div class="price-amount">$2,500</div>
-                    </div>
-                    <div class="price-tier">
-                        <div class="price-label">Comunidad BUAP</div>
-                        <div class="price-amount">$6,000</div>
-                    </div>
-                    <div class="price-tier">
-                        <div class="price-label">Público General</div>
-                        <div class="price-amount">$10,000</div>
-                    </div>
-                    <div class="benefits">
-                        <div class="benefit-item">✓ Diploma respaldado por la BUAP</div>
-                        <div class="benefit-item">✓ Material digital incluido</div>
-                        <div class="benefit-item">✓ Soporte académico</div>
-                    </div>
-                </div>
-
-                <div class="payment-card">
-                    <h3>INFORMACIÓN DE PAGO</h3>
-                    <div class="payment-details">
-                        <div class="payment-item">
-                            <span class="payment-label">Banco:</span>
-                            <span class="payment-value">HSBC</span>
-                        </div>
-                        <div class="payment-item">
-                            <span class="payment-label">Número de cuenta:</span>
-                            <span class="payment-value">4001 533 157</span>
-                        </div>
-                        <div class="payment-item">
-                            <span class="payment-label">CLABE</span>
-                            <span class="payment-value">021650040015331577</span>
-                        </div>
-                        <div class="payment-item">
-                            <span class="payment-label">Titular:</span>
-                            <span class="payment-value">Buap Fac Cs FisMat</span>
-                        </div>
-                        <div class="payment-item">
-                            <span class="payment-label">Concepto:</span>
-                            <span class="payment-value">DiplomadoNN + Nombre Completo</span>
-                        </div>
-                        <div class="payment-item">
-                            <span class="payment-label">Fecha límite de pago:</span>
-                            <span class="payment-value">31 de julio de 2025</span>
-                        </div>
-                    </div>
-                    
-                    <div class="qr-section">
-                        <div class="qr-info">
-                            <p class="qr-text">Una vez realizada la transferencia, registrate en la siguiente liga o escanea el código QR:</p>
-                            <a href="https://forms.gle/KBf3Zgs64jqykkMd9" class="qr-link" target="_blank">
-                                https://forms.gle/KBf3Zgs64jqykkMd9
-                            </a>
-                        </div>
-                        <div class="qr-placeholder">
-                            <img src="assets/QR.svg" alt="Código QR para registro" class="qr-code-image">
-                            <p>Código QR</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Instructors Section -->
-            <div class="instructors-section">
-                <h2 class="section-title">CUERPO ACADÉMICO</h2>
-                <div class="instructors-grid">
-                    <div class="instructor-card">
-                        <div class="instructor-photo">
-                            <img src="assets/Moises.jpeg" alt="Moises Arredondo" class="instructor-image">
-                        </div>
-                        <div class="instructor-content">
-                            <h3>DR. JUAN MOISÉS ARREDONDO VELÁZQUEZ</h3>
-                            <p class="instructor-title">Investigador CINVESTAV</p>
-                            <p class="instructor-description">
-                                Doctor en Ciencias de la Ingeniería especializado en el desarrollo e implementación de 
-arquitecturas digitales para redes neuronales convolucionales (RNC). Ha realizado investigaciones 
-relevantes tanto en el área de aceleradores hardware para RNC sobre sistemas con recursos limitados así como
-aquellas orientadas al desarrollo de instrumentación científicas para experimentos de física de partículas,
-particularmente con la propuesta de nuevos convertidores de tiempo a digital. Ha dirigido 
-tesis relacionadas con el procesamiento eficiente de RNC empleando FPGAs. También, aquellas orientadas
-a la optimización de RNCs para clasificación de señales EMG y reducción de ruido 
-en imágenes médicas mediante redes neuronales artificiales. Actualmente es Investigador 
-CINVESTAV y miembro nivel candidato del Sistema Nacional de Investigadores (SNII-SECIHTI).
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="instructor-card">
-                        <div class="instructor-photo">
-                            <img src="assets/Gerardo.jpeg" alt="Gerardo Uriel" class="instructor-image">
-                        </div>
-                        <div class="instructor-content">
-                            <h3>M.C. GERARDO URIEL PÉREZ ROJAS</h3>
-                            <p class="instructor-title">Estudiante de Doctorado, Benemérita Universidad Autónoma de Puebla</p>
-                            <p class="instructor-description">
-                                Maestro en Ciencias (Física Aplicada), realiza su doctorado en la BUAP en colaboración con la Universidad de 
-                                Harvard en Massachusetts en el área de física médica con proyectos de radioterapia adaptativa para 
-                                oligometástasis haciendo uso de modelos generativos de IA. Además, ha participado en el Google I/O extended 
-                                2024 y el Google Development Sucre de Bolivia 2024.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="instructor-card">
-                        <div class="instructor-photo">
-                            <img src="assets/me.jpg" alt="Rey Guadarrama" class="instructor-image">
-                        </div>
-                        <div class="instructor-content">
-                            <h3>LIC. LUIS REY VARGAZ GUADARRAMA</h3>
-                            <p class="instructor-title">Estudiante de Maestría, Universidad La Sapienza</p>
-                            <p class="instructor-description">
-                                Licenciado en física e investigador especializado en inteligencia artificial y quantum machine 
-                                learning. Realizó estancia de investigación en el Mirai Innovation Research Institute de Japón, 
-                                enfocándose en sistemas de IA para navegación autónoma de robots de asistencia. 
-                                Becario del Google Summer of Code 2024, desarrollando redes generativas antagónicas cuánticas. 
-                                Actualmente es mentor en Machine Learning for Science para Google Summer of Code 2025, supervisando 
-                                proyectos de Quantum Machine Learning aplicada a física de altas energías.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            
+            <div class="carousel-indicators" id="indicators">
+                <!-- Indicators will be loaded dynamically from JSON -->
             </div>
         </div>
     </section>
 
-    <section class="testimonials-section">
-        <div class="container">
-            <h2 class="section-title">TESTIMONIOS DE ESTUDIANTES</h2>
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Yo tomé la materia de Redes Neuronales Artificiales con el Doctor Moisés y, sinceramente, ha sido de las pocas materias en toda la carrera donde siento que realmente aprendí, más allá de solo memorizar información. Su forma de enseñar es simple: explica el tema, da ejemplos y después resolvemos ejercicios, no sin antes darnos las herramientas necesarias para hacerlo. Lo mejor es que empieza desde lo más básico y va subiendo el nivel poco a poco, así que si tú también pones de tu parte, vas entendiendo todo. El tema por naturaleza es difícil, pero el Doctor lo hace ver de una forma muy clara y comprensible. Eso sí, es importante hacer los ejercicios y preguntar todas las dudas. Sinceramente, una clase que volvería a tomarla sin pensarlo."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/Jeffrey.jpeg" alt="Jeffrey Cortes Cantoran" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>JEFFREY CORTES CANTORAN</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Tuve la oportunidad de tomar clases y realizar mi servicio social con el profesor Moisés Arredondo, y puedo decir que su forma de enseñar es muy diferente y efectiva. Su enfoque constructivista nos permitió entender desde los fundamentos matemáticos de las redes neuronales hasta cómo programarlas desde cero, sin depender de librerías prehechas. Esta metodología me ayudó a conectar la teoría con la práctica, y realmente sentir que comprendía qué estaba haciendo detrás del código.
-
-Su paciencia y claridad para explicar conceptos complejos hicieron que el aprendizaje fuera accesible y significativo. Además, fomenta que el estudiante construya su propio conocimiento, lo que te prepara mucho mejor para enfrentar retos reales en la industria o en investigación.
-
-Recomiendo ampliamente sus cursos a quienes quieran profundizar de verdad en redes neuronales, ya sea para aprender los conceptos de raíz o para mejorar su capacidad práctica programando sus propios modelos."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoBrandonArriaga.jpeg" alt="Brandon Arriaga Tlapa" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>BRANDON ARRIAGA TLAPA</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Realicé mis prácticas profesionales con el Dr. Moisés, enfocadas en la reducción de ruido en imágenes de tomografías computarizadas. Él se asegura de que realmente comprendas lo que estás explicando; si detecta que no entendiste bien algún concepto, te corrige y te lo explica con claridad. Es un excelente docente, con una gran capacidad para transmitir conocimientos. Considero que el diplomado es una excelente inversión, ya que abre muchas puertas en el ámbito laboral."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoGael.jpeg" alt="Gael Lopez Davila" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>GAEL LOPEZ DAVILA</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"La forma para abordar la comprensión de las redes neuronales desde una visión intuitiva con temas de regresión lineal al comienzo del curso permite comprender de forma elegante y simple la estructura de una red neuronal básica que en ocasiones no se llega a ver en cursos más avanzados, el desarrollo matemático de esto es fundamental para la comprensión de modelos más complejos dentro de la programación computacional , el cual se aborda todo el tiempo en este curso, lo que a mi parecer debe de entenderse si se quiere abordar estos temas con más profundidad en un futuro."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoIan.jpeg" alt="Ian Torres Mayoral" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>IAN TORRES MAYORAL</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Saber elegir la arquitectura de la red neuronal óptima para un proyecto no es una tarea sencilla. Y menos aún tratar de encontrar el error en un código que no tiene ni pies ni cabeza.
-Para poder elegir a conciencia hay que conocer los fundamentos, planear de manera estructurada y entender los modelos matemáticos. Si quieres perderle el miedo a estos 3 puntos tienes que ir con el Dr Moisés. 
-No será fácil, copiar y pegar no te salvará, pero si te aferras y preguntas mucho entonces valdrá la pena."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoSergio.jpeg" alt="Sergio Pulido Rosales" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>SERGIO PULIOD ROSALES</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Muy buen curso de parte del doctor Moisés. Se empieza desde un nivel adecuado (desde cero en mi caso) y se va escalando de forma adecuada (ni lento ni rápido). La teoría es muy buena empezando por saber qué es una red neuronal, además de los tipos que hay; en nuestro caso, pudimos eliminar ruido a imágenes de tomografía computarizada por medio de redes neuronales. Sin nada más que agregar, me siento satisfecho con el aprendizaje obtenido."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoMarco.jpg" alt="Marco Mendoza Gonzalez" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>MARCO MENDOZA GONZALEZ</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Tuve el gusto de tomar el curso de Redes Neuronales con el Dr. Moisés Arredondo. Fue una experiencia exigente y a la vez enriquecedora. A diferencia de otros cursos enfocados en el uso de librerías como PyTorch o TensorFlow, este estuvo orientado a entender a fondo la estructura matemática detrás de las redes neuronales. 
-Se comenzó desde conceptos básicos y avanzamos progresivamente hacia temas más complejos, lo cual requiere paciencia pero vale la pena. Gracias a este enfoque teórico, el conocimiento adquirido se puede trasladar entre distintos lenguajes de programación y aplicarse para construir modelos propios, lo que resulta útil si se piensa trabajar en contextos donde no siempre existen librerías listas para usar y se tiene que hacer uso de soluciones personalizadas.
-Respecto al profesor, siempre se mostró con disposición para resolver dudas.
-Si se busca una base sólida y profunda en redes neuronales, más allá del uso de herramientas ya desarrolladas, recomiendo mucho aprender con él."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/DummyW.jpg" alt="Ximena Cansino Rojas" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>XIMENA CANSINO ROJAS</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Los documentos que nos proporcionó para trabajar tienen una gran calidad, bien estructurados y con un enfoque didáctico muy sólido. A lo largo del desarrollo resalta una progresión muy bien pensada, comenzando con modelos simples como la regresión logística, y avanzando paso a paso hasta llegar a la justificación del uso de redes neuronales.
-
-                                    Uno de los mayores aciertos es que todo el enfoque está basado en entender desde cero lo que ocurre en cada modelo. No se usan librerías externas para resolverlo todo con una línea de código, sino que se toma el tiempo de construir las soluciones manualmente. Esto, aunque requiere más esfuerzo, permite un aprendizaje mucho más profundo y duradero.
-
-                                    Los textos son claros, están bien redactados y tienen una estructura académica ordenada. Tienen un equilibrio interesante entre teoría y práctica, y lo más importante es que no solo muestran cómo se hacen las cosas, sino que ayudan a entender por qué se hacen así.
-
-Es importante contar con algunos conocimientos previos básicos. Se recomienda tener nociones de álgebra lineal, como el manejo de vectores y matrices, así como una comprensión general de derivadas, series, sumatorias. También considero que es necesario tener experiencia programando en Python, especialmente usando bibliotecas como numpy y matplotlib, ya que gran parte del trabajo se desarrolla implementando modelos y visualizando resultados desde cero.
-
-Lo aprendido en este curso puede aplicarse fácilmente a situaciones reales y sencillas, como clasificar datos en dos o más categorías, identificar patrones en conjuntos de puntos, o predecir comportamientos según ciertas características. Por ejemplo, se puede entrenar un modelo para distinguir entre diferentes tipos de objetos, identificar si una señal pertenece a una clase u otra, o detectar condiciones anómalas en datos físicos o médicos. Estas aplicaciones prácticas permiten entender el valor de los modelos desde el primer momento, incluso sin tener que recurrir a grandes bases de datos o escenarios complejos."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoBrandonBrayan.jpeg" alt="Brandon Brayan Gonzalez Luna" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>BRANDON BRAYAN GONZALEZ LUNA</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"En el creciente campo de las redes neuronales, conocerlas en profundidad con una base sólida como el formalismo matemático es imperativo para quienes deseen explorarlas y explotar su máximo potencial.
-
-Sin duda, puedo afirmar que el Dr. Moisés me proporcionó la piedra angular necesaria para explorar la frontera científica de las redes neuronales. Aunque su metodología puede resultar compleja inicialmente por tratarse de matemáticas avanzadas, las herramientas que se derivan de ella —como plantear las RN como estructuras matemáticas— abren la puerta no solo a su aplicación práctica, sino también a su personalización.
-
-Más allá de la programación y los usos concretos de las redes neuronales, el conocimiento que me impartió el Dr. Moisés lo describiría como la arquitectura matemática subyacente a las RN. Este constituye un recurso que considero invaluable e indispensable para todo aquel interesado en profundizar en este campo."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoMralik.jpeg" alt="Mralik Esteban Verdin" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>MRALIK ESTEBAN VERDIN</h4>
-                                    <p class="author-title">Estudiante de Licenciatura en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Yo he sido alumna del Dr. Moisés en dos materias relacionadas a Redes Neuronales Artificiales, en las cuales puedo decir que enseña desde una base matemática sólida y desarrolla las redes sin usar librerías externas. Esto permite comprender a fondo cómo funcionan, evita depender de herramientas ya construidas y saber qué tipo de red sirve para determinada tarea.
-
-Su forma de enseñar es clara y, hasta cierto punto, rigurosa, pero siempre está dispuesto a escuchar y resolver cualquier duda o idea que se le proponga. El nivel de exigencia es siempre justificado y orientado a lograr un buen aprendizaje. El Dr. realmente se asegura que como alumnos, comprendamos lo que estamos haciendo.
-
-Gracias a ello he podido aplicar esos conocimientos en mi tesis de maestría, específicamente en clasificación y procesamiento de imágenes médicas. Personalmente, recomiendo ampliamente cualquier curso, diplomado o taller con él; su manera de enseñar realmente marca la diferencia."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoGio.png" alt="Lizbeth Giovana Rodriguez Sanchez" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>LIZBETH GIOVANA RODRIGUEZ SANCHEZ</h4>
-                                    <p class="author-title">Estudiante de Maestría en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>"Tuve la oportunidad de cursar la materia de Redes Neuronales con el Dr. Moisés Arredondo, y puedo afirmar que se trata de un curso en el que los temas son abordados de forma clara, estructurada y comprensible. Una de sus principales fortalezas es que se estudian las redes neuronales desde sus fundamentos matemáticos, lo cual permite al estudiante comprender a profundidad el funcionamiento interno de estas arquitecturas. Los contenidos se presentan de manera progresiva, comenzando con los conceptos básicos y avanzando hacia modelos más complejos que se construyen sobre los principios previamente establecidos. Además, la teoría se refuerza constantemente mediante ejercicios prácticos, lo que facilita la asimilación de los temas y permite aplicar los conocimientos adquiridos de forma inmediata. En definitiva, fue una experiencia formativa valiosa que me brindó bases sólidas tanto teóricas como prácticas para continuar trabajando con redes neuronales en proyectos posteriores."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoArturo.jpeg" alt="Arturo Ariel Márquez Carranza" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>ARTURO ARIEL MARQUEZ CARRANZA</h4>
-                                    <p class="author-title">Estudiante de Maestría en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="testimonial-quote">
-                                <p>""Si estás buscando aprender redes neuronales de verdad, desde las matemáticas que las sostienen hasta cómo funcionan, este diplomado con el Dr. Moisés Arredondo es una joya.
-
-Yo llevé una clase sobre redes neuronales con el Dr. Moisés Arredondo, y puedo decir con total convicción que fue una de las experiencias académicas más enriquecedoras de mi formación. Ingresé al curso con un conocimiento prácticamente nulo sobre el tema, y al final no solo entendí las bases matemáticas profundas, sino que aprendí a no depender de librerías y a desarrollar redes desde cero. Lo mejor: Moisés no solo es un gran experto, también es un excelente profe y siempre está dispuesto a resolver dudas, dar ejemplos claros y retarte con ejercicios que realmente te hacen pensar y crecer.
-
-Además, en este diplomado también participa el M. C. Gerardo Uriel Pérez, a quien conozco como compañero y sé que es súper comprometido con todo lo que hace. Sin duda, va a aportar muchísimo al curso.
-
-Si te interesa el aprendizaje real, este diplomado es una gran inversión. Recomendadísimo."</p>
-                            </div>
-                            <div class="testimonial-author">
-                                <div class="author-photo">
-                                    <img src="assets/FotosEstudiantes/FotoMiguel.jpeg" alt="Miguel Angel Diaz Castañeda" class="author-image">
-                                </div>
-                                <div class="author-info">
-                                    <h4>MIGUEL ANGEL DIAZ CASTAÑEDA</h4>
-                                    <p class="author-title">Estudiante de Doctorado en Fisica. FCFM, BUAP</p>
-                                    <p class="author-location">Puebla</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-title">Diplomado en Fundamentos de Redes Neuronales Artificiales</h3>
                 </div>
-        </div>
-    </section>
-
-    <section class="faq-section">
-        <div class="container">
-            <h2 class="section-title">PREGUNTAS FRECUENTES</h2>
-            <div class="faq-container">
-                <!-- FAQ items will be loaded dynamically from FAQ.json -->
+                
+                <div class="footer-contact">
+                    <h4 class="contact-title">Información de Contacto</h4>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <a href="mailto:diplomado.nn@outlook.com" class="contact-link">diplomado.nn@outlook.com</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
+            
+            <hr class="footer-divider">
 
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-container">
-                <h2>¿LISTO PARA TRANSFORMAR TU FUTURO?</h2>
-                <p>Únete a la próxima generación de especialistas en Inteligencia Artificial</p>
-                <a href="mailto:diplomado.nn@outlook.com" class="cta-button-secondary">SOLICITAR INFORMACIÓN</a>
-            </div>
         </div>
-    </section>
+    </footer>
+    </div>
 
-    <script src="js/index.js"></script>
+    <script src="src/js/header.js"></script>
+    <script src="src/js/home/testimonials.js"></script>
+    <script src="src/js/home/hero-section.js"></script>
+    <script src="src/js/home/content.js"></script>
 </body>
 </html>

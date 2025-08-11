@@ -1,0 +1,31 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "name": "DR. JUAN MOISÉS ARREDONDO VELÁZQUEZ",
+      "title": "Investigador a tiempo completo",
+      "institution": "CINVESTAV",
+      "institutionLogo": "./../../assets/logos/logo_cinvestav.png",
+      "photo": "./../../assets/FotosInstructores/Moises.jpeg",
+      "biography": "Doctor en Ciencias de la Ingeniería especializado en arquitecturas digitales para redes neuronales convolucionales, con experiencia en aceleradores hardware sobre sistemas de recursos limitados e instrumentación científica para física de partículas. Ha trabajado en convertidores de tiempo a digital, procesamiento eficiente de RNCs en FPGAs, clasificación de señales EMG y reducción de ruido en imágenes médicas. Actualmente es investigador en CINVESTAV y miembro candidato del SNII-SECIHTI."
+    },
+    {
+      "id": 2,
+      "name": "M.C. GERARDO URIEL PÉREZ ROJAS",
+      "title": "Estudiante de Doctorado",
+      "institution": "Benemérita Universidad Autónoma de Puebla",
+      "institutionLogo": "./../../assets/logos/logo_buap.png",
+      "photo": "./../../assets/FotosInstructores/Gerardo.jpeg",
+      "biography": "Maestro en Ciencias (Física Aplicada), realiza su doctorado en la BUAP en colaboración con la Universidad de Harvard en Massachusetts en el área de física médica con proyectos de radioterapia adaptativa para oligometástasis haciendo uso de modelos generativos de IA. Además, ha participado en el Google I/O extended 2024 y el Google Development Sucre de Bolivia 2024."
+    },
+    {
+      "id": 3,
+      "name": "LIC. LUIS REY VARGAZ GUADARRAMA",
+      "title": "Estudiante de Maestría",
+      "institution": "Universidad La Sapienza",
+      "institutionLogo": "./../../assets/logos/logo_sapienza.png",
+      "photo": "./../../assets/FotosInstructores/Luis.jpg",
+      "biography": "Licenciado en física con experiencia en inteligencia artificial y quantum machine learning. Realizó estancia de investigación en el Mirai Innovation Research Institute de Japón, enfocándose en sistemas de IA para navegación autónoma. Becario del Google Summer of Code 2024. Actualmente es mentor en Machine Learning for Science para Google Summer of Code 2025, supervisando proyectos de Quantum Machine Learning. Aceptado para realizar una maestría en tecnologías cuánticas en el programa QUARMEN de Erasmus Mundus 2025-2027."
+    }
+  ]
+}

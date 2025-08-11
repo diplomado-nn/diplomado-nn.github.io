@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos - Diplomado Neural Networks</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/resources/layout.css">
+    <link rel="stylesheet" href="../css/resources/pdf-section.css">
+    <link rel="stylesheet" href="../css/resources/video-section.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header" id="header">
+            <div class="header-container">
+                <nav class="nav">
+                    <a href="../../index.html" class="nav-link">Inicio</a>
+                    <a href="recursos.html" class="nav-link active">Recursos</a>
+                    <a href="./about.html" class="nav-link">Sobre Nosotros</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="resources-main">
+            <div class="pdfs-background">
+                <section class="pdfs-section">
+                    <div class="pdfs-container">
+                        <div class="pdfs-header">
+                            <h1 class="pdfs-title">Material de Estudio</h1>
+                            <p class="pdfs-subtitle">
+                                Contenido teórico organizado por capítulos del diplomado
+                            </p>
+                        </div>
+
+                        <div class="pdfs-controls">
+                            <div class="pdfs-search">
+                                <input type="text" class="search-input" placeholder="Buscar capítulo..." id="searchInput">
+                                <svg class="search-icon" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            
+                            <div class="pdfs-filters">
+                                <button class="pdf-filter active" data-module="all">Todos</button>
+                                <button class="pdf-filter" data-module="modulo1">Módulo 1</button>
+                                <button class="pdf-filter" data-module="modulo2">Módulo 2</button>
+                                <button class="pdf-filter" data-module="modulo3">Módulo 3</button>
+                                <button class="pdf-filter" data-module="modulo4">Módulo 4</button>
+                            </div>
+                        </div>
+
+                        <div class="pdfs-content">
+                            <div class="pdfs-grid" id="pdfsGrid">
+                                <!-- PDF cards will be generated dynamically -->
+                            </div>
+
+                            <div class="pdfs-pagination" id="pagination">
+                                <button class="pagination-btn" id="prevBtn" disabled>
+                                    <svg fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </button>
+                                
+                                <div class="pagination-indicators" id="paginationIndicators">
+                                    <!-- Indicators will be generated dynamically -->
+                                </div>
+                                
+                                <button class="pagination-btn" id="nextBtn" disabled>
+                                    <svg fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                </button>
+                                
+                                <div class="pagination-info">
+                                    <span id="pageInfo"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>    
+            <section class="videos-section" id="videos-section">
+                <div class="videos-container">
+                    <div class="videos-header">
+                        <h1 class="videos-title">Grabaciones de Sesiones</h1>
+                        <p class="videos-subtitle">
+                            Videos de las clases magistrales y talleres prácticos del diplomado
+                        </p>
+                    </div>
+
+                    <div class="videos-controls">
+                        <div class="videos-search">
+                            <input type="text" class="search-input" placeholder="Buscar sesión..." id="videoSearchInput">
+                            <svg class="search-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="videos-filters">
+                            <button class="video-filter active" data-module="all">Todas</button>
+                            <button class="video-filter" data-module="modulo1">Módulo 1</button>
+                            <button class="video-filter" data-module="modulo2">Módulo 2</button>
+                            <button class="video-filter" data-module="modulo3">Módulo 3</button>
+                            <button class="video-filter" data-module="modulo4">Módulo 4</button>
+                        </div>
+                    </div>
+
+                    <div class="videos-content">
+                        <div class="videos-grid" id="videosGrid">
+                            <!-- Videos will be loaded dynamically from videos-data.json -->
+                        </div>
+
+                        <div class="videos-pagination" id="videosPagination">
+                            <button class="pagination-btn" id="videosPrevBtn" disabled>
+                                <svg fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </button>
+                            
+                            <div class="pagination-indicators" id="videosPaginationIndicators">
+                                <!-- Indicators will be generated dynamically -->
+                            </div>
+                            
+                            <button class="pagination-btn" id="videosNextBtn" disabled>
+                                <svg fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </button>
+                            
+                            <div class="pagination-info">
+                                <span id="videosPageInfo">Página 1 de 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3 class="footer-title">Diplomado en Fundamentos de Redes Neuronales Artificiales</h3>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4 class="contact-title">Información de Contacto</h4>
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                                </svg>
+                                <a href="mailto:diplomado.nn@outlook.com" class="contact-link">diplomado.nn@outlook.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <hr class="footer-divider">
+                
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/resources/pdf-manager.js"></script>
+    <script src="../js/resources/video-manager.js"></script>
+</body>
+</html>

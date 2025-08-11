@@ -1,0 +1,52 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Jeffrey Cortes Cantoran",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/Jeffrey.jpeg",
+      "quote": "Yo tomé la materia de Redes Neuronales Artificiales con el Doctor Moisés y, sinceramente, ha sido de las pocas materias en toda la carrera donde siento que realmente aprendí, más allá de solo memorizar información. Su forma de enseñar es simple: explica el tema, da ejemplos y después resolvemos ejercicios, no sin antes darnos las herramientas necesarias para hacerlo. Lo mejor es que empieza desde lo más básico y va subiendo el nivel poco a poco, así que si tú también pones de tu parte, vas entendiendo todo. El tema por naturaleza es difícil, pero el Doctor lo hace ver de una forma muy clara y comprensible. Eso sí, es importante hacer los ejercicios y preguntar todas las dudas. Sinceramente, una clase que volvería a tomarla sin pensarlo."
+    },
+    {
+      "id": 2,
+      "name": "Brandon Arriaga Tlapa",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoBrandonArriaga.jpeg",
+      "quote": "Tuve la oportunidad de tomar clases y realizar mi servicio social con el profesor Moisés Arredondo, y puedo decir que su forma de enseñar es muy diferente y efectiva. Su enfoque constructivista nos permitió entender desde los fundamentos matemáticos de las redes neuronales hasta cómo programarlas desde cero, sin depender de librerías prehechas. Esta metodología me ayudó a conectar la teoría con la práctica, y realmente sentir que comprendía qué estaba haciendo detrás del código. Su paciencia y claridad para explicar conceptos complejos hicieron que el aprendizaje fuera accesible y significativo. Además, fomenta que el estudiante construya su propio conocimiento, lo que te prepara mucho mejor para enfrentar retos reales en la industria o en investigación. Recomiendo ampliamente sus cursos a quienes quieran profundizar de verdad en redes neuronales, ya sea para aprender los conceptos de raíz o para mejorar su capacidad práctica programando sus propios modelos."
+    },
+    {
+      "id": 3,
+      "name": "Gael Lopez Davila",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoGael.jpeg",
+      "quote": "Realicé mis prácticas profesionales con el Dr. Moisés, enfocadas en la reducción de ruido en imágenes de tomografías computarizadas. Él se asegura de que realmente comprendas lo que estás explicando; si detecta que no entendiste bien algún concepto, te corrige y te lo explica con claridad. Es un excelente docente, con una gran capacidad para transmitir conocimientos. Considero que el diplomado es una excelente inversión, ya que abre muchas puertas en el ámbito laboral."
+    },
+    {
+      "id": 4,
+      "name": "Ian Torres Mayoral",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoIan.jpeg",
+      "quote": "La forma para abordar la comprensión de las redes neuronales desde una visión intuitiva con temas de regresión lineal al comienzo del curso permite comprender de forma elegante y simple la estructura de una red neuronal básica que en ocasiones no se llega a ver en cursos más avanzados, el desarrollo matemático de esto es fundamental para la comprensión de modelos más complejos dentro de la programación computacional , el cual se aborda todo el tiempo en este curso, lo que a mi parecer debe de entenderse si se quiere abordar estos temas con más profundidad en un futuro."
+    },
+    {
+      "id": 5,
+      "name": "Sergio Pulido Rosales",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoSergio.jpeg",
+      "quote": "Saber elegir la arquitectura de la red neuronal óptima para un proyecto no es una tarea sencilla. Y menos aún tratar de encontrar el error en un código que no tiene ni pies ni cabeza. Para poder elegir a conciencia hay que conocer los fundamentos, planear de manera estructurada y entender los modelos matemáticos. Si quieres perderle el miedo a estos 3 puntos tienes que ir con el Dr Moisés. No será fácil, copiar y pegar no te salvará, pero si te aferras y preguntas mucho entonces valdrá la pena."
+    },
+    {
+      "id": 6,
+      "name": "Marco Mendoza Gonzalez",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/dummy.jpg",
+      "quote": "Muy buen curso de parte del doctor Moisés. Se empieza desde un nivel adecuado (desde cero en mi caso) y se va escalando de forma adecuada (ni lento ni rápido). La teoría es muy buena empezando por saber qué es una red neuronal, además de los tipos que hay; en nuestro caso, pudimos eliminar ruido a imágenes de tomografía computarizada por medio de redes neuronales. Sin nada más que agregar, me siento satisfecho con el aprendizaje obtenido."
+    }
+  ]
+}

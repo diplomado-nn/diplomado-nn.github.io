@@ -1,0 +1,10 @@
+/* ================================
+   RESOURCES GENERAL LAYOUT
+   Diplomado Neural Networks
+   ================================ */
+
+.resources-main {
+  min-height: 100vh;
+  padding-top: var(--space-16);
+  background-color: var(--color-background-alt);
+}

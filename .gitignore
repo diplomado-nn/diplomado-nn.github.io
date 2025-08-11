@@ -10,6 +10,18 @@ Thumbs.db
 # legacy stuff
 legacy/
 
+# testing stuff
+tests/
+
+# legacy stuff
+legacy/
+
+<<<<<<< HEAD
+=======
+# testing stuff
+tests/
+
+>>>>>>> development
 # IDE and Editor Files
 .vscode/
 .idea/

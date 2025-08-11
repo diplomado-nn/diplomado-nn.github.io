@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Video - Diplomado Neural Networks</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/resources/video-player.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header" id="header">
+            <div class="header-container">
+                <nav class="nav">
+                    <a href="../../index.html" class="nav-link">Inicio</a>
+                    <a href="recursos.html" class="nav-link">Recursos</a>
+                    <a href="./about.html" class="nav-link">Sobre Nosotros</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="video-player-main">
+            <div class="video-player-container">
+                <div class="video-player-content">
+                    <!-- Video principal -->
+                    <div class="main-video-section">
+                        <button class="back-to-list-btn" id="backToListBtn">
+                            <svg fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"/>
+                            </svg>
+                            Volver a la lista
+                        </button>
+                        
+                        <div class="main-video-card" id="mainVideoCard">
+                            <div class="main-video-thumbnail" id="mainVideoThumbnail">
+                                <!-- Video iframe will be inserted here -->
+                            </div>
+                            <div class="main-video-info" id="mainVideoInfo">
+                                <h1 class="main-video-title" id="mainVideoTitle">Cargando...</h1>
+                                <p class="main-video-description" id="mainVideoDescription">Cargando descripción...</p>
+                                <div class="main-video-meta" id="mainVideoMeta">
+                                    <span class="main-video-module" id="mainVideoModule">Cargando...</span>
+                                    <span class="main-video-duration" id="mainVideoDuration">0 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar con videos siguientes -->
+                    <div class="sidebar-section">
+                        <div class="sidebar-header">
+                            <h3 class="sidebar-title">Siguiente</h3>
+                            <div class="sidebar-controls">
+                                <div class="sidebar-search">
+                                    <input type="text" placeholder="Buscar..." id="sidebarSearch">
+                                    <svg class="search-icon" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-videos" id="sidebarVideos">
+                            <!-- Videos will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3 class="footer-title">Diplomado en Fundamentos de Redes Neuronales Artificiales</h3>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4 class="contact-title">Información de Contacto</h4>
+                        <ul class="contact-list">
+                            <li class="contact-item">
+                                <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                                </svg>
+                                <a href="mailto:diplomado.nn@outlook.com" class="contact-link">diplomado.nn@outlook.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <hr class="footer-divider">
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/resources/video-player.js"></script>
+</body>
+</html>
