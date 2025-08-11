@@ -45,8 +45,24 @@
       "name": "Marco Mendoza Gonzalez",
       "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
       "location": "Puebla",
-      "photo": "assets/FotosEstudiantes/dummy.jpg",
+      "photo": "assets/FotosEstudiantes/FotoMarco.jpg",
       "quote": "Muy buen curso de parte del doctor Moisés. Se empieza desde un nivel adecuado (desde cero en mi caso) y se va escalando de forma adecuada (ni lento ni rápido). La teoría es muy buena empezando por saber qué es una red neuronal, además de los tipos que hay; en nuestro caso, pudimos eliminar ruido a imágenes de tomografía computarizada por medio de redes neuronales. Sin nada más que agregar, me siento satisfecho con el aprendizaje obtenido."
+    },
+    {
+      "id": 7,
+      "name": "Ximena CAnsino Rojas",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/dummyw.jpg",
+      "quote": "Tuve el gusto de tomar el curso de Redes Neuronales con el Dr. Moisés Arredondo. Fue una experiencia exigente y a la vez enriquecedora. A diferencia de otros cursos enfocados en el uso de librerías como PyTorch o TensorFlow, este estuvo orientado a entender a fondo la estructura matemática detrás de las redes neuronales. Se comenzó desde conceptos básicos y avanzamos progresivamente hacia temas más complejos, lo cual requiere paciencia pero vale la pena. Gracias a este enfoque teórico, el conocimiento adquirido se puede trasladar entre distintos lenguajes de programación y aplicarse para construir modelos propios, lo que resulta útil si se piensa trabajar en contextos donde no siempre existen librerías listas para usar y se tiene que hacer uso de soluciones personalizadas. Respecto al profesor, siempre se mostró con disposición para resolver dudas. Si se busca una base sólida y profunda en redes neuronales, más allá del uso de herramientas ya desarrolladas, recomiendo mucho aprender con él."
+    },
+    {
+      "id": 8,
+      "name": "Lizbeth Giovana",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoGio.png",
+      "quote": "Yo he sido alumna del Dr. Moisés en dos materias relacionadas a Redes Neuronales Artificiales, en las cuales puedo decir que enseña desde una base matemática sólida y desarrolla las redes sin usar librerías externas. Esto permite comprender a fondo cómo funcionan, evita depender de herramientas ya construidas y saber qué tipo de red sirve para determinada tarea. Su forma de enseñar es clara y, hasta cierto punto, rigurosa, pero siempre está dispuesto a escuchar y resolver cualquier duda o idea que se le proponga. El nivel de exigencia es siempre justificado y orientado a lograr un buen aprendizaje. El Dr. realmente se asegura que como alumnos, comprendamos lo que estamos haciendo. Gracias a ello he podido aplicar esos conocimientos en mi tesis de maestría, específicamente en clasificación y procesamiento de imágenes médicas. Personalmente, recomiendo ampliamente cualquier curso, diplomado o taller con él; su manera de enseñar realmente marca la diferencia."
     }
   ]
 }
