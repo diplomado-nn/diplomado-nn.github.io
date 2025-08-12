@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "name": "Ximena CAnsino Rojas",
+      "name": "Ximena Cansino Rojas",
       "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
       "location": "Puebla",
       "photo": "assets/FotosEstudiantes/dummyw.jpg",
@@ -58,11 +58,43 @@
     },
     {
       "id": 8,
-      "name": "Lizbeth Giovana",
+      "name": "Brandon Brayan Gonzalez Luna",
       "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoBrandonBrayan.jpeg",
+      "quote": "Los documentos que nos proporcionó para trabajar tienen una gran calidad, bien estructurados y con un enfoque didáctico muy sólido. A lo largo del desarrollo resalta una progresión muy bien pensada, comenzando con modelos simples como la regresión logística, y avanzando paso a paso hasta llegar a la justificación del uso de redes neuronales. Uno de los mayores aciertos es que todo el enfoque está basado en entender desde cero lo que ocurre en cada modelo. No se usan librerías externas para resolverlo todo con una línea de código, sino que se toma el tiempo de construir las soluciones manualmente. Esto, aunque requiere más esfuerzo, permite un aprendizaje mucho más profundo y duradero. Los textos son claros, están bien redactados y tienen una estructura académica ordenada. Tienen un equilibrio interesante entre teoría y práctica, y lo más importante es que no solo muestran cómo se hacen las cosas, sino que ayudan a entender por qué se hacen así. Es importante contar con algunos conocimientos previos básicos. Se recomienda tener nociones de álgebra lineal, como el manejo de vectores y matrices, así como una comprensión general de derivadas, series, sumatorias. También considero que es necesario tener experiencia programando en Python, especialmente usando bibliotecas como numpy y matplotlib, ya que gran parte del trabajo se desarrolla implementando modelos y visualizando resultados desde cero. Lo aprendido en este curso puede aplicarse fácilmente a situaciones reales y sencillas, como clasificar datos en dos o más categorías, identificar patrones en conjuntos de puntos, o predecir comportamientos según ciertas características. Por ejemplo, se puede entrenar un modelo para distinguir entre diferentes tipos de objetos, identificar si una señal pertenece a una clase u otra, o detectar condiciones anómalas en datos físicos o médicos. Estas aplicaciones prácticas permiten entender el valor de los modelos desde el primer momento, incluso sin tener que recurrir a grandes bases de datos o escenarios complejos."
+    },
+    {
+      "id": 9,
+      "name": "Mralik Esteban Verdin",
+      "title": "Estudiante de Licenciatura en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoMralik.jpeg",
+      "quote": "En el creciente campo de las redes neuronales, conocerlas en profundidad con una base sólida como el formalismo matemático es imperativo para quienes deseen explorarlas y explotar su máximo potencial. Sin duda, puedo afirmar que el Dr. Moisés me proporcionó la piedra angular necesaria para explorar la frontera científica de las redes neuronales. Aunque su metodología puede resultar compleja inicialmente por tratarse de matemáticas avanzadas, las herramientas que se derivan de ella —como plantear las RN como estructuras matemáticas— abren la puerta no solo a su aplicación práctica, sino también a su personalización. Más allá de la programación y los usos concretos de las redes neuronales, el conocimiento que me impartió el Dr. Moisés lo describiría como la arquitectura matemática subyacente a las RN. Este constituye un recurso que considero invaluable e indispensable para todo aquel interesado en profundizar en este campo."
+    },
+    {
+      "id": 10,
+      "name": "Lizbeth Giovana Rodriguez Sanchez",
+      "title": "Estudiante de Maestría en Fisica. FCFM, BUAP",
       "location": "Puebla",
       "photo": "assets/FotosEstudiantes/FotoGio.png",
       "quote": "Yo he sido alumna del Dr. Moisés en dos materias relacionadas a Redes Neuronales Artificiales, en las cuales puedo decir que enseña desde una base matemática sólida y desarrolla las redes sin usar librerías externas. Esto permite comprender a fondo cómo funcionan, evita depender de herramientas ya construidas y saber qué tipo de red sirve para determinada tarea. Su forma de enseñar es clara y, hasta cierto punto, rigurosa, pero siempre está dispuesto a escuchar y resolver cualquier duda o idea que se le proponga. El nivel de exigencia es siempre justificado y orientado a lograr un buen aprendizaje. El Dr. realmente se asegura que como alumnos, comprendamos lo que estamos haciendo. Gracias a ello he podido aplicar esos conocimientos en mi tesis de maestría, específicamente en clasificación y procesamiento de imágenes médicas. Personalmente, recomiendo ampliamente cualquier curso, diplomado o taller con él; su manera de enseñar realmente marca la diferencia."
+    },
+    {
+      "id": 11,
+      "name": "Arturo Ariel Marquez Carranza",
+      "title": "Estudiante de Maestría en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoArturo.jpeg",
+      "quote": "Tuve la oportunidad de cursar la materia de Redes Neuronales con el Dr. Moisés Arredondo, y puedo afirmar que se trata de un curso en el que los temas son abordados de forma clara, estructurada y comprensible. Una de sus principales fortalezas es que se estudian las redes neuronales desde sus fundamentos matemáticos, lo cual permite al estudiante comprender a profundidad el funcionamiento interno de estas arquitecturas. Los contenidos se presentan de manera progresiva, comenzando con los conceptos básicos y avanzando hacia modelos más complejos que se construyen sobre los principios previamente establecidos. Además, la teoría se refuerza constantemente mediante ejercicios prácticos, lo que facilita la asimilación de los temas y permite aplicar los conocimientos adquiridos de forma inmediata. En definitiva, fue una experiencia formativa valiosa que me brindó bases sólidas tanto teóricas como prácticas para continuar trabajando con redes neuronales en proyectos posteriores."
+    },
+    {
+      "id": 12,
+      "name": "Miguel Angel Diaz Castañeda",
+      "title": "Estudiante de Doctorado en Fisica. FCFM, BUAP",
+      "location": "Puebla",
+      "photo": "assets/FotosEstudiantes/FotoMiguel.jpeg",
+      "quote": "Si estás buscando aprender redes neuronales de verdad, desde las matemáticas que las sostienen hasta cómo funcionan, este diplomado con el Dr. Moisés Arredondo es una joya. Yo llevé una clase sobre redes neuronales con el Dr. Moisés Arredondo, y puedo decir con total convicción que fue una de las experiencias académicas más enriquecedoras de mi formación. Ingresé al curso con un conocimiento prácticamente nulo sobre el tema, y al final no solo entendí las bases matemáticas profundas, sino que aprendí a no depender de librerías y a desarrollar redes desde cero. Lo mejor: Moisés no solo es un gran experto, también es un excelente profe y siempre está dispuesto a resolver dudas, dar ejemplos claros y retarte con ejercicios que realmente te hacen pensar y crecer. Además, en este diplomado también participa el M. C. Gerardo Uriel Pérez, a quien conozco como compañero y sé que es súper comprometido con todo lo que hace. Sin duda, va a aportar muchísimo al curso. Si te interesa el aprendizaje real, este diplomado es una gran inversión. Recomendadísimo."
     }
   ]
 }

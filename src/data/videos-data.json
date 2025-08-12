@@ -10,61 +10,6 @@
       "youtubeId": "KmKoCE_xJKE",
       "searchTerms": "PyCharm numpy matplotlib gradiente descendente configuración instalación",
       "order": 1
-    },
-    {
-      "id": "gradient-descent",
-      "title": "Clase 2: Gradiente Descendente",
-      "description": "Cómo las redes neuronales aprenden mediante gradiente descendente",
-      "module": "Módulo 1",
-      "moduleId": "modulo1",
-      "duration": "21 min",
-      "youtubeId": "IHZwWFHWa-w",
-      "searchTerms": "gradiente descendente práctica",
-      "order": 2
-    },
-    {
-      "id": "backpropagation",
-      "title": "Clase 3: ¿Qué hace realmente la retropropagación?",
-      "description": "Entendiendo el algoritmo de retropropagación intuitivamente",
-      "module": "Módulo 1", 
-      "moduleId": "modulo1",
-      "duration": "14 min",
-      "youtubeId": "Ilg3gGewQ5U",
-      "searchTerms": "optimizadores avanzados",
-      "order": 3
-    },
-    {
-      "id": "autoencoders",
-      "title": "Clase 4: Introducción a Autoencoders",
-      "description": "Fundamentos y aplicaciones de los autoencoders",
-      "module": "Módulo 2",
-      "moduleId": "modulo2",
-      "duration": "15 min",
-      "youtubeId": "9zKuYvjFFS8",
-      "searchTerms": "autoencoders introducción",
-      "order": 4
-    },
-    {
-      "id": "rnn-lstm",
-      "title": "Clase 5: RNN y LSTM explicado",
-      "description": "Redes neuronales recurrentes y memoria a largo plazo",
-      "module": "Módulo 3",
-      "moduleId": "modulo3",
-      "duration": "12 min",
-      "youtubeId": "WCUNPb-5EYI",
-      "searchTerms": "rnn lstm práctica",
-      "order": 5
-    },
-    {
-      "id": "gans",
-      "title": "Clase 6: Redes Generativas Adversarias (GANs)",
-      "description": "Cómo funcionan las GANs para generar contenido nuevo",
-      "module": "Módulo 4",
-      "moduleId": "modulo4",
-      "duration": "17 min",
-      "youtubeId": "8L11aMN5KY8",
-      "searchTerms": "gans generación imágenes",
-      "order": 6
     }
   ]
 }
