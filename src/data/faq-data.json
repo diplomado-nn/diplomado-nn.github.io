@@ -1,0 +1,29 @@
+{
+  "faqs": [
+    {
+      "id": "requisitos",
+      "question": "¿Qué requisitos previos necesito para el diplomado?",
+      "answer": "Se recomienda tener conocimientos básicos de matemáticas (álgebra lineal y cálculo diferencial) y nociones básicas de programación. Sin embargo, el diplomado está diseñado para estudiantes y profesionales de diferentes niveles académicos, comenzando desde un nivel muy básico avanzando hacia temas más avanzados."
+    },
+    {
+      "id": "certificado",
+      "question": "¿Recibiré un certificado al finalizar?",
+      "answer": "Sí, al completar satisfactoriamente el diplomado recibirás un diploma respaldado por la Benemérita Universidad Autónoma de Puebla (BUAP), que demuestra tus conocimientos en fundamentos de redes neuronales artificiales."
+    },
+    {
+      "id": "modalidad",
+      "question": "¿Hay clases en vivo o es completamente asíncrono?",
+      "answer": "El diplomado incluye sesiones síncronas en vivo para explicaciones teóricas y resolución de dudas."
+    },
+    {
+      "id": "grabaciones",
+      "question": "¿Qué pasa si no puedo asistir a una clase en vivo?",
+      "answer": "Todas las sesiones en vivo serán grabadas y estarán disponibles para los participantes."
+    },
+    {
+      "id": "horarios",
+      "question": "¿Cuáles son los días y horarios de las clases?",
+      "answer": "El diplomado se planea impartir los miércoles y sábados de 10:00 AM a 2:00 PM (hora de Ciudad de México). Los sábados están destinados a las clases teóricas principales, mientras que los miércoles se enfocan en sesiones de práctica y asesorías."
+    }
+  ]
+}
