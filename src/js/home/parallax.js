@@ -68,8 +68,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const parallaxSections = [
         initParallaxSection('.hero', 0.5, 0.7, -40),
         initParallaxSection('.testimonials', 0.3, 0.7, -160),
-        initParallaxSection('.philosophy-section', 0.25, 0.6, -100),
-        initParallaxSection('.videos-section', 0.35, 0.5, 150)
     ].filter(Boolean); // Remove null entries
     
     if (parallaxSections.length === 0) {
