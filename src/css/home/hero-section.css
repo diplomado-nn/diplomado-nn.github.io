@@ -88,6 +88,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   position: relative;
+  font-size: var(--font-size-6-5xl);
 }
 
 .hero-description {
@@ -138,12 +139,15 @@
 }
 
 .hero-btn-secondary {
-  background: transparent;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--color-white);
+  font-weight: var(--font-weight-bold);
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .hero-btn-secondary:hover {
+  backdrop-filter: blur(15px);
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
