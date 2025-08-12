@@ -214,7 +214,8 @@
   align-items: center;
 }
 
-.pdf-module {
+
+.pdf-pages {
   font-family: var(--font-secondary);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
@@ -224,13 +225,6 @@
   border-radius: var(--radius-base);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
-}
-
-.pdf-pages {
-  font-family: var(--font-secondary);
-  font-size: var(--font-size-xs);
-  color: var(--color-text-tertiary);
-  font-weight: var(--font-weight-medium);
 }
 
 /* Pagination */

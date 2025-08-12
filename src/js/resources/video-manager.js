@@ -86,7 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h3 class="video-title">${video.title}</h3>
                 <p class="video-description">${video.description}</p>
                 <div class="video-meta">
-                    <span class="video-module">${video.module}</span>
                     <span class="video-duration">${video.duration}</span>
                 </div>
             </div>

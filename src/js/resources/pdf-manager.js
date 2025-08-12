@@ -195,7 +195,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <h3 class="pdf-title">${pdf.title}</h3>
                 <p class="pdf-description">${pdf.description}</p>
                 <div class="pdf-meta">
-                    <span class="pdf-module">${pdf.module}</span>
                     <span class="pdf-pages">${pdf.pages} páginas</span>
                 </div>
             </div>
