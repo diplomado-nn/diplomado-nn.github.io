@@ -158,8 +158,8 @@
 }
 
 .hero-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(25px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius-3xl);
   padding: var(--space-12);
@@ -196,7 +196,7 @@
 
 .hero-stat-number {
   font-family: var(--font-primary);
-  font-size: var(--font-size-4xl);
+  font-size: var(--font-size-6xl);
   font-weight: var(--font-weight-bold);
   margin: 0 0 var(--space-2);
   background: var(--gradient-accent);
@@ -207,8 +207,8 @@
 
 .hero-stat-label {
   font-family: var(--font-secondary);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
   margin: 0;
   opacity: 0.9;
 }
@@ -238,20 +238,20 @@
 }
 
 .floating-element:nth-child(1) {
-  top: 20%;
+  top: 10%;
   left: 10%;
   animation-delay: 0s;
 }
 
 .floating-element:nth-child(2) {
-  top: 60%;
+  top: 10%;
   right: 15%;
   animation-delay: 2s;
 }
 
 .floating-element:nth-child(3) {
   bottom: 30%;
-  left: 20%;
+  left: 40%;
   animation-delay: 4s;
 }
 

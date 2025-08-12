@@ -4,68 +4,97 @@
 // ================================
 
 document.addEventListener('DOMContentLoaded', function() {
-    const heroSection = document.querySelector('.hero');
-    
-    if (!heroSection) {
-        console.warn('Hero section not found for parallax effect');
-        return;
+    // Function to create parallax effect for a section
+    function initParallaxSection(selector, opacity = 0.5, speed = 0.7, position=-40) {
+        const section = document.querySelector(selector);
+        
+        if (!section) {
+            console.warn(`Section ${selector} not found for parallax effect`);
+            return null;
+        }
+        
+        // Create parallax background container
+        const parallaxContainer = document.createElement('div');
+        parallaxContainer.className = 'parallax-background';
+        parallaxContainer.style.cssText = `
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 120%;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+            opacity: ${opacity};
+        `;
+        
+        // Create SVG element for parallax
+        const parallaxSvg = document.createElement('div');
+        parallaxSvg.className = 'parallax-svg';
+        parallaxSvg.style.cssText = `
+            position: absolute;
+            top: ${position}%;
+            left: -10%;
+            width: 120%;
+            height: 120%;
+            background-image: url('./assets/parallax/paralax.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transform: translateZ(0);
+            will-change: transform;
+        `;
+        
+        // Append elements
+        parallaxContainer.appendChild(parallaxSvg);
+        
+        // Insert parallax container as the first child of section
+        // Special handling for philosophy section structure
+        if (selector === '.philosophy-section') {
+            const philosophyBg = section.querySelector('.philosophy-background');
+            if (philosophyBg) {
+                philosophyBg.insertBefore(parallaxContainer, philosophyBg.firstChild);
+            } else {
+                section.insertBefore(parallaxContainer, section.firstChild);
+            }
+        } else {
+            section.insertBefore(parallaxContainer, section.firstChild);
+        }
+        
+        return { section, parallaxSvg, speed };
     }
     
-    // Create parallax background container
-    const parallaxContainer = document.createElement('div');
-    parallaxContainer.className = 'parallax-background';
-    parallaxContainer.style.cssText = `
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 120%;
-        z-index: 0;
-        pointer-events: none;
-        overflow: hidden;
-        opacity: 0.5;
-    `;
+    // Initialize parallax for multiple sections
+    const parallaxSections = [
+        initParallaxSection('.hero', 0.5, 0.7, -40),
+        initParallaxSection('.testimonials', 0.3, 0.7, -160),
+        initParallaxSection('.philosophy-section', 0.25, 0.6, -100),
+        initParallaxSection('.videos-section', 0.35, 0.5, 150)
+    ].filter(Boolean); // Remove null entries
     
-    // Create SVG element for parallax
-    const parallaxSvg = document.createElement('div');
-    parallaxSvg.className = 'parallax-svg';
-    parallaxSvg.style.cssText = `
-        position: absolute;
-        top: -40%;
-        left: -10%;
-        width: 120%;
-        height: 120%;
-        background-image: url('./assets/parallax/paralax.svg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        transform: translateZ(0);
-        will-change: transform;
-    `;
-    
-    // Append elements
-    parallaxContainer.appendChild(parallaxSvg);
-    
-    // Insert parallax container as the first child of hero section
-    heroSection.insertBefore(parallaxContainer, heroSection.firstChild);
+    if (parallaxSections.length === 0) {
+        console.warn('No sections found for parallax effect');
+        return;
+    }
     
     // Parallax scroll effect
     let ticking = false;
     
     function updateParallax() {
         const scrollY = window.scrollY;
-        const heroRect = heroSection.getBoundingClientRect();
-        const heroHeight = heroSection.offsetHeight;
         
-        // Only apply parallax when hero section is visible
-        if (heroRect.bottom > 0 && heroRect.top < window.innerHeight) {
-            // Calculate parallax offset (moves slower than scroll)
-            const parallaxSpeed = 0.7;
-            const yPos = scrollY * parallaxSpeed;
+        parallaxSections.forEach(({ section, parallaxSvg, speed }) => {
+            const sectionRect = section.getBoundingClientRect();
             
-            // Apply transform with 3D acceleration
-            parallaxSvg.style.transform = `translate3d(0, ${yPos}px, 0) scale(1.1)`;
-        }
+            // Only apply parallax when section is visible
+            if (sectionRect.bottom > 0 && sectionRect.top < window.innerHeight) {
+                // Calculate parallax offset (moves slower than scroll)
+                const yPos = scrollY * speed;
+                
+                // Apply transform with 3D acceleration
+                parallaxSvg.style.transform = `translate3d(0, ${yPos}px, 0) scale(1.1)`;
+            }
+        });
         
         ticking = false;
     }
@@ -91,5 +120,5 @@ document.addEventListener('DOMContentLoaded', function() {
     
     window.addEventListener('resize', handleResize, { passive: true });
     
-    console.log('Parallax effect initialized for hero section');
+    console.log(`Parallax effect initialized for ${parallaxSections.length} sections`);
 });

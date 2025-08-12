@@ -87,6 +87,7 @@
 .testimonial-content {
   flex: 1;
   background: rgba(30, 64, 175, 0.1);
+  backdrop-filter: blur(10px);
   border: 2px solid var(--color-primary-400);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
