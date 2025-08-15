@@ -10,6 +10,17 @@
       "url": "/assets/pdfs/modulo1/gradiente-descendente.pdf",
       "searchTerms": "gradiente descendente optimizadores algoritmo",
       "order": 1
+    }, 
+    {
+      "id": "regresion-lineal",
+      "title": "Regresión Lineal",
+      "description": "Fundamentos de la regresión lineal y optimización de coeficientes mediante gradiente descendente.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 4,
+      "url": "/assets/pdfs/modulo1/gradiente-descendente.pdf",
+      "searchTerms": "gradiente descendente optimizadores algoritmo",
+      "order": 1
     }
   ]
 }
