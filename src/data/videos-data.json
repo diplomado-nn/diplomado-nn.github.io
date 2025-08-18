@@ -21,6 +21,17 @@
       "youtubeId": "_hCVzyq1CAU",
       "searchTerms": "regresión lineal costo ",
       "order": 2
+    },
+    {
+      "id": "regresion-polinomial",
+      "title": "Clase 3: Regresión Polinomial.",
+      "description": "Introducción a la regresión polinomial y su implementación en python, implementación del gradiente descendente utilizando funciones hipótesis no lineales con múltiples parámetros",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 20min",
+      "youtubeId": "L1QcFJjN_mw",
+      "searchTerms": "regresión polinomial funcion hipotesis no lineales",
+      "order": 3
     }
   ]
 }
