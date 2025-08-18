@@ -21,6 +21,17 @@
       "url": "/assets/pdfs/modulo1/regresion-lineal.pdf",
       "searchTerms": "regresión lineal optimización",
       "order": 2
+    }, 
+    {
+      "id": "regresion-polinomial",
+      "title": "Regresión Polinomial",
+      "description": "Fundamentos de regresión polinomial, formulación matricial y optimización con gradiente descendente para funciones hipotesis no lineales.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 4,
+      "url": "/assets/pdfs/modulo1/regresion-polinomial.pdf",
+      "searchTerms": "regresión polinomial optimización matrices matricial",
+      "order": 3
     }
   ]
 }
