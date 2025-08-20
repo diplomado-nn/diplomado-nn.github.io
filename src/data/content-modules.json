@@ -75,15 +75,11 @@
       "id": "modulo4",
       "number": 4,
       "title": "Redes Neuronales Recurrentes",
-      "description": "Procesamiento de secuencias temporales con RNNs, LSTM y GRU. Aplicaciones en procesamiento de lenguaje natural y series temporales.",
+      "description": "Procesamiento de secuencias temporales con RNNs, LSTM y GRU. Aplicaciones en series temporales.",
       "topics": [
         {
           "id": "rnn-lstm-gru",
           "title": "RNN, LSTM y GRU"
-        },
-        {
-          "id": "nlp-applications",
-          "title": "Procesamiento de lenguaje natural"
         },
         {
           "id": "time-series",
@@ -95,20 +91,16 @@
     {
       "id": "modulo5",
       "number": 5,
-      "title": "Maquinas de Boltzmann",
+      "title": "Maquinas restringidas de Boltzmann",
       "description": "Modelos probabilísticos avanzados, máquinas de Boltzmann restringidas y aplicaciones en modelado de distribuciones complejas.",
       "topics": [
         {
-          "id": "rbm",
-          "title": "Máquinas de Boltzmann Restringidas"
+          "id": "reduccion-dimension",
+          "title": "Reducción de dimensionalidad con RBM"
         },
         {
-          "id": "contrastive-divergence",
-          "title": "Algoritmo de Divergencia Contrastiva"
-        },
-        {
-          "id": "probabilistic-modeling",
-          "title": "Modelado probabilístico"
+          "id": "redes-creencia",
+          "title": "Redes de creencia"
         }
       ],
       "order": 5
