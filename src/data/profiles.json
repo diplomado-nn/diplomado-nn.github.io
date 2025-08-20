@@ -1,26 +1,57 @@
 {
   "aspirant": {
     "title": "Perfil del Aspirante",
-    "description": "Este diplomado está dirigido al público en general, sin embargo, se espera que los aspirantes a cursar el diplomado de 'Fundamentos de redes neuronales artificiales' posean conocimientos sólidos en los fundamentos de programación y matemáticas (álgebra, cálculo diferencial, soluciones de ecuaciones diferenciales). Además, los candidatos deben demostrar competencias en áreas como análisis y síntesis de información, razonamiento lógico y comunicación oral y escrita.",
-    "requirements": [
-      "Conocimientos sólidos de programación y matemáticas",
-      "Álgebra lineal y cálculo diferencial",
-      "Soluciones de ecuaciones diferenciales",
-      "Competencias en análisis y síntesis de información",
-      "Razonamiento lógico",
-      "Comunicación oral y escrita"
+    "tagline": "Ideal para profesionales ambiciosos",
+    "description": "Dirigido a profesionales y estudiantes con bases sólidas en programación y matemáticas que buscan dominar las redes neuronales.",
+    "highlights": [
+      {
+        "icon": "code",
+        "title": "Programación",
+        "desc": "Fundamentos sólidos en lógica de programación"
+      },
+      {
+        "icon": "square-sigma",
+        "title": "Matemáticas",
+        "desc": "Álgebra, cálculo y ecuaciones diferenciales"
+      },
+      {
+        "icon": "brain",
+        "title": "Análisis",
+        "desc": "Análisis y síntesis de información, pensamiento lógico"
+      },
+      {
+        "icon": "message-circle",
+        "title": "Comunicación",
+        "desc": "Oral y escrita"
+      }
     ],
-    "note": "En el caso de la comunidad estudiantil, podrá ingresar cualquier estudiante de nivel académico desde licenciatura hasta doctorado. Aunque se recomienda haber concluido al menos el 50% de los cursos de licenciatura."
+    "note": "Para la comunidad estudiantil, podrá inscribirse cualquier estudiante de cualquier nivel académico, aunque se recomienda haber concluído al menos el 50% de los cursos de licenciatura."
   },
   "graduate": {
     "title": "Perfil del Egresado",
-    "description": "Los graduados de este diplomado contarán con las habilidades requeridas para participar en esfuerzos colaborativos dentro de equipos multidisciplinarios para llevar a cabo el diseño, implementación y validación de sistemas basados en redes neuronales artificiales.",
-    "competencies": [
-      "Aplicar algoritmos biológicamente inspirados en diversos dominios como el aprendizaje automático, procesamiento del lenguaje natural y la visión artificial",
-      "Desarrollar una mejora en hábitos de trabajo relacionados al desarrollo de prototipos afines bajo el rigor científico",
-      "Incorporar aprendizaje y la persistencia en su entorno social, respetando la diversidad cultural, étnica y humana",
-      "Demostrar habilidades de búsqueda, documentación e interpretación de información obtenida de fuentes formales de comunicación científica y técnica"
-    ],
-    "additional_skills": "Adicionalmente, presentarán una mejora en hábitos de trabajo relacionados al desarrollo de prototipos afines bajo el rigor científico, el cual involucra el aprendizaje y la persistencia. Contarán con tolerancia en su entorno social, respetando la diversidad cultural, étnica y humana. Finalmente, demostrarán habilidades de búsqueda, documentación e interpretación de información obtenida de fuentes formales de comunicación científica y técnica."
+    "tagline": "Experto colaborativo en sistemas neuronales",
+    "description": "Profesionales capacitados para participar en equipos multidisciplinarios en el desarrollo de sistemas basados en redes neuronales artificiales, con rigor científico y habilidades de investigación.",
+    "highlights": [
+      {
+        "icon": "users",
+        "title": "Colaboración Multidisciplinaria",
+        "desc": "Trabajo en equipos diversos"
+      },
+      {
+        "icon": "brain-circuit",
+        "title": "Algoritmos Bio-inspirados",
+        "desc": "Aprendizaje automático, procesamiento de lenguaje natural y visión artificial."
+      },
+      {
+        "icon": "search",
+        "title": "Investigación Científica",
+        "desc": "Documentación y análisis técnico e interpretación, autoaprendizaje y persistencia."
+      },
+      {
+        "icon": "settings",
+        "title": "Desarrollo de Sistemas",
+        "desc": "Diseño, implementación y validación de modelos de redes neuronales artificiales."
+      }
+    ]
   }
 }
