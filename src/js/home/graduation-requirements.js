@@ -68,7 +68,9 @@ class GraduationRequirementsManager {
                         <p>${this.requirementsData.certification.note}</p>
                     </div>
                     
-                    <div class="buap-badge">BUAP</div>
+                    <div class="buap-badge">
+                        <img src="../../../assets/logos/logo_buap.png" alt="buap logo" class="buap-logo"></img>
+                    </div>
                 </div>
             </div>
         `;
