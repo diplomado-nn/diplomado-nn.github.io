@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/home/testimonials.css">
     <link rel="stylesheet" href="src/css/home/hero-section.css">
-    <link rel="stylesheet" href="src/css/home/content.css">
-    <link rel="stylesheet" href="src/css/home/payment.css">
+    <link rel="stylesheet" href="src/css/home/program-details.css">
+    <link rel="stylesheet" href="src/css/home/profiles.css">
+    <link rel="stylesheet" href="src/css/home/academic-calendar.css">
+    <link rel="stylesheet" href="src/css/home/graduation-requirements.css">
     <link rel="stylesheet" href="src/css/home/faq.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,11 +47,11 @@
                     </p>
                     
                     <div class="hero-actions">
-                        <a href="#payment" class="hero-btn hero-btn-primary">
+                        <a href="#content" class="hero-btn hero-btn-primary">
                             <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.293l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            Inscríbete Ahora
+                            Explora el Programa
                         </a>
                         <a href="./src/components/about.html" class="hero-btn hero-btn-secondary">
                             <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
@@ -105,32 +107,17 @@
         </div>
     </section>
 
-    <section class="content" id="content">
-        <div class="content-container">
-            <div class="content-header">
-                <h2 class="content-title">Contenido Temático</h2>
-                <p class="content-subtitle">
-                    Un currículo estructurado y progresivo que te llevará desde los fundamentos hasta las implementaciones y aplicaciones más avanzadas en redes neuronales.
+    <section class="program-details" id="program-details">
+        <div class="program-details-container">
+            <div class="program-details-header">
+                <h2 class="program-details-title">Programa de Estudios</h2>
+                <p class="program-details-subtitle">
+                    Conoce los objetivos y competencias que desarrollarás durante el diplomado en fundamentos de redes neuronales artificiales.
                 </p>
             </div>
             
-            <div class="content-modules">
-                <!-- Modules will be loaded dynamically from JSON -->
-            </div>
-            
-            <div class="content-stats">
-                <div class="content-stat">
-                    <span class="stat-number">140</span>
-                    <p class="stat-label">Horas de Contenido</p>
-                </div>
-                <div class="content-stat">
-                    <span class="stat-number">5</span>
-                    <p class="stat-label">Módulos Especializados</p>
-                </div>
-                <div class="content-stat">
-                    <span class="stat-number">100%</span>
-                    <p class="stat-label">Contenido Actualizado</p>
-                </div>
+            <div class="program-details-content">
+                <!-- Content will be loaded dynamically from JSON -->
             </div>
         </div>
     </section>
@@ -166,108 +153,48 @@
         </div>
     </section>
 
-    <section class="payment" id="payment">
-        <div class="payment-container">
-            <div class="payment-header">
-                <h2 class="payment-title">Información de Pago e Inversión</h2>
-                <p class="payment-subtitle">
-                    Completa tu registro al diplomado y asegura tu lugar en esta experiencia de aprendizaje.
+
+    <section class="profiles" id="profiles">
+        <div class="profiles-container">
+            <div class="profiles-header">
+                <h2 class="profiles-title">Perfiles Académicos</h2>
+                <p class="profiles-subtitle">
+                    Conoce el perfil recomendado para aspirantes y las competencias que desarrollarás como egresado.
                 </p>
             </div>
             
-            <div class="payment-content">
-                <div class="pricing-section">
-                    <h3 class="pricing-title">Inversión del Diplomado</h3>
-                    <div class="pricing-tiers">
-                        <div class="price-tier featured">
-                            <div class="tier-label">Estudiantes BUAP</div>
-                            <div class="tier-price">$2,500</div>
-                            <div class="tier-note">MXN</div>
-                        </div>
-                        <div class="price-tier">
-                            <div class="tier-label">Comunidad BUAP</div>
-                            <div class="tier-price">$6,000</div>
-                            <div class="tier-note">MXN</div>
-                        </div>
-                        <div class="price-tier">
-                            <div class="tier-label">Público General</div>
-                            <div class="tier-price">$10,000</div>
-                            <div class="tier-note">MXN</div>
-                        </div>
-                    </div>
-                    
-                    <div class="benefits-section">
-                        <h4 class="benefits-title">Incluye:</h4>
-                        <div class="benefits-list">
-                            <div class="benefit-item">
-                                <svg class="benefit-icon" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                                </svg>
-                                Diploma respaldado por la BUAP
-                            </div>
-                            <div class="benefit-item">
-                                <svg class="benefit-icon" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                                </svg>
-                                Material digital incluido
-                            </div>
-                            <div class="benefit-item">
-                                <svg class="benefit-icon" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                                </svg>
-                                Soporte académico
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="profiles-content">
+                <!-- Content will be loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
 
-                <div class="payment-details-section">
-                    <h3 class="details-title">Datos Bancarios</h3>
-                    <div class="bank-details">
-                        <div class="detail-item">
-                            <span class="detail-label">Banco:</span>
-                            <span class="detail-value">HSBC</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Número de cuenta:</span>
-                            <span class="detail-value">4001 533 157</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">CLABE:</span>
-                            <span class="detail-value">021650040015331577</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Titular:</span>
-                            <span class="detail-value">Buap Fac Cs FisMat</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Concepto:</span>
-                            <span class="detail-value">DiplomadoNN + Nombre Completo</span>
-                        </div>
-                    </div>
-                    
-                    <div class="registration-section">
-                        <div class="registration-info">
-                            <h4 class="registration-title">Registro</h4>
-                            <p class="registration-text">
-                                Una vez realizada la transferencia, registrate en el siguiente enlace:
-                            </p>
-                            <a href="https://forms.gle/KBf3Zgs64jqykkMd9" class="registration-link" target="_blank">
-                                https://forms.gle/KBf3Zgs64jqykkMd9
-                            </a>
-                            <p class="registration-text">
-                                finalmente, envía un correo con tu comprobante de pago, nombre y número telefónico al correo: 
-                            </p>
-                            <a href="mailto:diplomado.nn@outlook.com" class="registration-link">diplomado.nn@outlook.com</a>
-                        </div>
-                        <div class="qr-section">
-                            <div class="qr-placeholder">
-                                <img src="assets/QR/QR.svg" alt="Código QR para registro" class="qr-code-image">
-                                <p class="qr-text">Código QR para registro</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="academic-calendar" id="academic-calendar">
+        <div class="academic-calendar-container">
+            <div class="academic-calendar-header">
+                <h2 class="academic-calendar-title">Calendario Académico</h2>
+                <p class="academic-calendar-subtitle">
+                    Cronograma completo del programa, fechas de cada módulo y horarios de sesiones.
+                </p>
+            </div>
+            
+            <div class="academic-calendar-content">
+                <!-- Content will be loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <section class="graduation-requirements" id="graduation-requirements">
+        <div class="graduation-requirements-container">
+            <div class="graduation-requirements-header">
+                <h2 class="graduation-requirements-title">Requisitos de Graduación</h2>
+                <p class="graduation-requirements-subtitle">
+                    Criterios de evaluación, asistencia y certificación para completar exitosamente el diplomado.
+                </p>
+            </div>
+            
+            <div class="graduation-requirements-content">
+                <!-- Content will be loaded dynamically from JSON -->
             </div>
         </div>
     </section>
@@ -318,8 +245,8 @@
     <script src="src/js/home/testimonials.js"></script>
     <script src="src/js/home/hero-section.js"></script>
     <script src="src/js/home/parallax.js"></script>
-    <script src="src/js/home/content.js"></script>
-    <script src="src/js/home/payment.js"></script>
+    <script src="src/js/home/program-details.js"></script>
+    <script src="src/js/home/academic-info.js"></script>
     <script src="src/js/home/faq.js"></script>
 </body>
 </html>

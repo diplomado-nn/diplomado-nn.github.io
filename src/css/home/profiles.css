@@ -1,0 +1,247 @@
+/* ================================
+   PROFILES SECTION
+   Diplomado Neural Networks
+   ================================ */
+
+.profiles {
+  padding: var(--space-20) 0;
+  background: var(--color-white);
+  position: relative;
+}
+
+.profiles-container {
+  max-width: var(--max-width-6xl);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+.profiles-header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.profiles-title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.profiles-subtitle {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  max-width: var(--max-width-3xl);
+  margin: 0 auto;
+  line-height: var(--line-height-relaxed);
+}
+
+.profiles-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+}
+
+.profile-card {
+  background: var(--color-white);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-neural);
+  border: 1px solid var(--color-border-light);
+  transition: var(--transition-neural);
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.profile-card:hover {
+  transform: translateY(-var(--space-2));
+  box-shadow: var(--shadow-xl);
+}
+
+.profile-card.aspirant::before {
+  background: var(--gradient-primary);
+}
+
+.profile-card.graduate::before {
+  background: var(--gradient-secondary);
+}
+
+.profile-header {
+  margin-bottom: var(--space-6);
+}
+
+.profile-title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.profile-card.aspirant .profile-title {
+  color: var(--color-primary);
+}
+
+.profile-card.graduate .profile-title {
+  color: var(--color-secondary);
+}
+
+.profile-title::before {
+  font-size: var(--font-size-xl);
+}
+
+.profile-card.aspirant .profile-title::before {
+  content: '🎓';
+}
+
+.profile-card.graduate .profile-title::before {
+  content: '🚀';
+}
+
+.profile-description {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-6);
+}
+
+.profile-items {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.profile-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  transition: var(--transition-colors);
+}
+
+.profile-card.aspirant .profile-item {
+  background: var(--color-primary-50);
+}
+
+.profile-card.graduate .profile-item {
+  background: var(--color-secondary-50);
+}
+
+.profile-item:hover {
+  background: var(--color-gray-100);
+}
+
+.profile-item::before {
+  content: '✓';
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  flex-shrink: 0;
+  width: var(--space-5);
+  height: var(--space-5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  margin-top: var(--space-1);
+}
+
+.profile-card.aspirant .profile-item::before {
+  background: var(--color-primary);
+}
+
+.profile-card.graduate .profile-item::before {
+  background: var(--color-secondary);
+}
+
+.profile-item p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+.profile-note {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-info-bg);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-info);
+}
+
+.profile-note p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+  font-style: italic;
+}
+
+.profile-additional {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-secondary-50);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-secondary);
+}
+
+.profile-additional p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .profiles-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 768px) {
+  .profiles {
+    padding: var(--space-16) 0;
+  }
+
+  .profiles-container {
+    padding: 0 var(--space-4);
+  }
+
+  .profiles-title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .profiles-subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .profile-card {
+    padding: var(--space-6);
+  }
+
+  .profile-title {
+    font-size: var(--font-size-xl);
+  }
+}

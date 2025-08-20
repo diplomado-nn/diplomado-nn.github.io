@@ -1,0 +1,43 @@
+{
+  "title": "Documentos Oficiales del Programa",
+  "subtitle": "Accede a la documentación completa y oficial del Diplomado en Fundamentos de Redes Neuronales Artificiales",
+  "documents": [
+    {
+      "id": "program-syllabus",
+      "title": "Programa Académico Completo",
+      "description": "Documento oficial con objetivos, justificación, contenidos curriculares, cronograma detallado y estructura completa del diplomado",
+      "filename": "diplomado-ANN.pdf",
+      "path": "./diplomado-ANN.pdf",
+      "type": "academic",
+      "icon": "document-text",
+      "size": "PDF"
+    }
+  ],
+  "contact_info": {
+    "title": "Información de Contacto",
+    "subtitle": "Para consultas académicas y administrativas",
+    "contacts": [
+      {
+        "name": "Dr. Juan Moisés Arredondo Velázquez",
+        "role": "Coordinador Académico - Módulos 1 y 4",
+        "institution": "CINVESTAV",
+        "email": "diplomado.nn@outlook.com",
+        "phone": "cel: 4181392878"
+      },
+      {
+        "name": "M.C. Gerardo Uriel Pérez Rojas", 
+        "role": "Instructor - Módulos 3 y 5",
+        "institution": "BUAP",
+        "email": "diplomado.nn@outlook.com",
+        "phone": "cel: 2228656157"
+      },
+      {
+        "name": "Lic. Luis Rey Vargas Guadarrama",
+        "role": "Instructor - Módulo 2",
+        "institution": "Universidad La Sapienza",
+        "email": "diplomado.nn@outlook.com", 
+        "phone": "cel: 2213235489"
+      }
+    ]
+  }
+}

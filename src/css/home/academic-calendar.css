@@ -1,0 +1,309 @@
+/* ================================
+   ACADEMIC CALENDAR SECTION
+   Diplomado Neural Networks
+   ================================ */
+
+.academic-calendar {
+  padding: var(--space-20) 0;
+  background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-white) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.academic-calendar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-neural-surface);
+  z-index: 1;
+}
+
+.academic-calendar-container {
+  max-width: var(--max-width-6xl);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  position: relative;
+  z-index: 2;
+}
+
+.academic-calendar-header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.academic-calendar-title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-4);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.academic-calendar-subtitle {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  max-width: var(--max-width-3xl);
+  margin: 0 auto;
+  line-height: var(--line-height-relaxed);
+}
+
+.academic-calendar-content {
+  display: grid;
+  gap: var(--space-8);
+}
+
+.program-overview {
+  background: var(--color-white);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-neural);
+  border: 1px solid var(--color-border-light);
+  margin-bottom: var(--space-8);
+}
+
+.program-overview-title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.program-overview-title::before {
+  content: '📅';
+  font-size: var(--font-size-xl);
+}
+
+.program-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4);
+}
+
+.program-stat {
+  text-align: center;
+  padding: var(--space-4);
+  background: var(--color-primary-50);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-primary-200);
+}
+
+.program-stat-value {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-2);
+}
+
+.program-stat-label {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.schedule-note {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-info-bg);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-info);
+}
+
+.schedule-note p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+  font-style: italic;
+}
+
+.modules-calendar {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.module-card {
+  background: var(--color-white);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-neural);
+  border: 1px solid var(--color-border-light);
+  transition: var(--transition-neural);
+  position: relative;
+  overflow: hidden;
+}
+
+.module-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.module-card:nth-child(2)::before {
+  background: var(--gradient-secondary);
+}
+
+.module-card:nth-child(3)::before {
+  background: var(--gradient-accent);
+}
+
+.module-card:nth-child(4)::before {
+  background: var(--gradient-primary);
+}
+
+.module-card:nth-child(5)::before {
+  background: var(--gradient-secondary);
+}
+
+.module-card:hover {
+  transform: translateY(-var(--space-1));
+  box-shadow: var(--shadow-lg);
+}
+
+.module-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-4);
+  align-items: flex-start;
+  margin-bottom: var(--space-4);
+}
+
+.module-info h3 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.module-period {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-1);
+}
+
+.module-duration {
+  display: flex;
+  gap: var(--space-4);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+}
+
+.module-stats {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  text-align: right;
+}
+
+.module-stat {
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-gray-100);
+  border-radius: var(--radius-md);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+.module-content {
+  margin-bottom: var(--space-4);
+}
+
+.module-topics {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-4);
+}
+
+.module-instructor {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: var(--color-gray-50);
+  border-radius: var(--radius-lg);
+}
+
+.instructor-icon {
+  width: var(--space-8);
+  height: var(--space-8);
+  background: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  flex-shrink: 0;
+}
+
+.instructor-details h4 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-1);
+}
+
+.instructor-details p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .academic-calendar {
+    padding: var(--space-16) 0;
+  }
+
+  .academic-calendar-container {
+    padding: 0 var(--space-4);
+  }
+
+  .academic-calendar-title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .academic-calendar-subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .program-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .module-header {
+    grid-template-columns: 1fr;
+  }
+
+  .module-stats {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .instructor-details h4 {
+    font-size: var(--font-size-xs);
+  }
+}

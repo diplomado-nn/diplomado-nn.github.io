@@ -1,0 +1,12 @@
+{
+  "objectives": {
+    "general": "Aportar a estudiantes y profesionalistas los fundamentos teóricos de las redes neuronales artificiales a fin adquirir habilidades que eventualmente puedan servir para proponer variantes o complementos competitivos con los modelos matemáticos ya existentes.",
+    "specific": [
+      "Inculcar a estudiantes y profesionalistas el interés por el desarrollo de modelos matemáticos relacionados a las redes neuronales artificiales.",
+      "Fortalecer la habilidad de estudiantes y profesionalistas para recopilar información relacionada a la resolución de problemas relacionados con el procesamiento, análisis y clasificación de datos.",
+      "Desarrollar en los estudiantes y profesionalistas la habilidad para verificar el análisis matemático con un lenguaje de programación.",
+      "Practicar el trabajo de colaboración entre estudiantes y/o profesionalistas para el entendimiento y resolución de un problema de análisis y/o clasificación de datos.",
+      "Enseñar a comunicar y difundir efectivamente las estrategias propuestas para la resolución de un problema matemático."
+    ]
+  }
+}

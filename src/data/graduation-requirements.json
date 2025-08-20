@@ -1,0 +1,25 @@
+{
+  "title": "Requisitos de Egreso",
+  "subtitle": "Para considerar que cada estudiante culminó con éxito el curso y puede entonces ser acreedor al diploma, se tomará en consideración lo siguiente:",
+  "requirements": [
+    {
+      "id": "evaluation",
+      "title": "Evaluación Académica",
+      "description": "Realizar para cada módulo las actividades asignadas y obtener una evaluación mayor al 70% de puntos alcanzables",
+      "details": "Las actividades y los criterios específicos para evaluación se proporcionarán a los estudiantes en el transcurso de cada unidad.",
+      "icon": "academic-cap"
+    },
+    {
+      "id": "attendance",
+      "title": "Asistencia a Sesiones",
+      "description": "Asistir como mínimo al 80% de las sesiones sabatinas",
+      "details": "Se considera como asistencia válida para el estudiante si éste permanece en cada sesión virtual por lo menos 50% del tiempo (2 horas).",
+      "icon": "calendar"
+    }
+  ],
+  "certification": {
+    "title": "Certificación",
+    "description": "Diploma respaldado por la Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "note": "El diploma certifica los conocimientos adquiridos en fundamentos de redes neuronales artificiales y la participación exitosa en el programa académico."
+  }
+}
