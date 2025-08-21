@@ -6,8 +6,8 @@
       "id": "program-syllabus",
       "title": "Programa Académico Completo",
       "description": "Documento oficial con objetivos, justificación, contenidos curriculares, cronograma detallado y estructura completa del diplomado",
-      "filename": "diplomado-ANN.pdf",
-      "path": "./diplomado-ANN.pdf",
+      "filename": "descripcion-diplomado.pdf",
+      "path": "../../assets/pdfs/administrativos/descripcion-diplomado.pdf",
       "type": "academic",
       "icon": "document-text",
       "size": "PDF"

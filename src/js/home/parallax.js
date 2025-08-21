@@ -67,9 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize parallax for multiple sections
     const parallaxSections = [
         initParallaxSection('.hero', 0.5, 0.7, -40),
-        initParallaxSection('.testimonials', 0.3, 0.7, -160),
-        initParallaxSection('.profiles', 0.3, 0.7, -280),
-        initParallaxSection('.faq', 0.3, 0.7, -410)
+        initParallaxSection('.testimonials', 0.3, 0.7, -160)
     ].filter(Boolean); // Remove null entries
     
     if (parallaxSections.length === 0) {
