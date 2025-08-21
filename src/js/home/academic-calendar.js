@@ -118,6 +118,7 @@ class AcademicCalendarManager {
                 <div class="module-header">
                     <div class="module-name-badge">M&oacute;dulo ${index + 1}</div>
                     <h4 class="module-title">${module.name}</h4>
+                    <p class="module-description">${module.description}</p>
                  
                 </div>
                 
