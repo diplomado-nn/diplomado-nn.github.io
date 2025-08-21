@@ -116,8 +116,9 @@ class AcademicCalendarManager {
         return `
             <div class="module-slide ${index === 0 ? 'active' : ''}" data-module="${module.id}">
                 <div class="module-header">
-                    <div class="module-name-badge">${module.name}</div>
-                    <p class="module-description">${module.description}</p>
+                    <div class="module-name-badge">M&oacute;dulo ${index + 1}</div>
+                    <h4 class="module-title">${module.name}</h4>
+                 
                 </div>
                 
                 <div class="module-content">
@@ -148,12 +149,10 @@ class AcademicCalendarManager {
                             <div class="meta-label">Per&iacute;odo</div>
                             <div class="meta-value">${this.formatPeriod(module.period)}</div>
                         </div>
-                    </div>
-                    
-                    <div class="module-instructor">
-                        <h5 class="instructor-title">Instructor</h5>
-                        <div class="instructor-name">${module.instructor}</div>
-                        <div class="instructor-institution">${module.institution}</div>
+                        <div class="meta-item instructor-item">
+                            <div class="meta-label">Instructor</div>
+                            <div class="meta-value instructor-name">${module.instructor}</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -307,11 +306,14 @@ class AcademicCalendarManager {
         const slides = document.querySelectorAll('.module-slide');
         if (slides.length <= 1) return;
 
+        // Stop any existing interval before starting a new one
+        this.stopAutoSlide();
+
         this.autoSlideInterval = setInterval(() => {
             if (!this.isTransitioning) {
                 this.nextSlide();
             }
-        }, 8000); // Change slide every 8 seconds
+        }, 7000); // Change slide every 7 seconds
     }
 
     stopAutoSlide() {

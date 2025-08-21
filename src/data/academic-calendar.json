@@ -4,13 +4,13 @@
     "sessions": "35 sesiones",
     "startDate": "9 de agosto de 2025",
     "endDate": "5 de diciembre de 2025",
-    "schedule": "Sábados 10:00am-2:00pm, Miércoles 10:00am-2:00pm",
+    "schedule": "miércoles y sábados 10:00am-2:00pm",
     "note": ""
   },
   "modules": [
     {
       "id": "modulo1",
-      "name": "1. Redes Neuronales Completamente Conectadas",
+      "name": "Redes Neuronales Completamente Conectadas",
       "description": "Fundamentos de las redes neuronales, arquitecturas básicas, algoritmos de entrenamiento y optimización. Introducción a los conceptos esenciales.",
       "topics": ["Algoritmos de optimización", "Regresión lineal y logística", "Funciones de activación y costo", "Algoritmo de retropropagación"],
       "hours": 40,
@@ -21,7 +21,7 @@
     },
     {
       "id": "modulo2", 
-      "name": "2. Autocodificadores",
+      "name": "Autocodificadores",
       "description": "Introducción al aprendizaje no supervisado con autocodificadores. Aplicaciones de autocodifiers y autocodificadores variacionales.",
       "topics": ["Codificación y decodificación", "Espacio latente y reducción de dimensionalidad", "Autocodificadores variacionales", "Generación de datos con autocodificadores"],
       "hours": 28,
@@ -32,7 +32,7 @@
     },
     {
       "id": "modulo3",
-      "name": "3. Redes Generativas Adversarias (GANs)",
+      "name": "Redes Generativas Adversarias (GANs)",
       "description": "Arquitecturas adversarias y generación de datos sintéticos utilizando redes neuronales adversarias.",
       "topics": ["Discriminador y generador", "Entrenamiento adversarial", "Generación de datos sintéticos usando redes generativas adversarias"],
       "hours": 28,
@@ -43,9 +43,9 @@
     },
     {
       "id": "modulo4",
-      "name": "4. Redes Recurrentes",
+      "name": "Redes Recurrentes",
       "description": "Procesamiento de secuencias temporales con RNNs, LSTM y GRU. Aplicaciones en procesamiento de lenguaje natural y series temporales.",
-      "topics": ["RNN, LSTM y GRU", "Análisis de series temporales"],
+      "topics": ["Redes neuronales recurrentes", "Redes de memoria a corto-largo plazo", "Redes de unidades recurrentes con compuertas", "Análisis de series temporales"],
       "hours": 24,
       "sessions": 6,
       "period": "1 de noviembre de 2025 al 19 de noviembre de 2025",
@@ -54,9 +54,9 @@
     },
     {
       "id": "modulo5",
-      "name": "5. Máquinas de Boltzmann",
+      "name": "Máquinas de Boltzmann",
       "description": "Modelos probabilísticos avanzados, máquinas de Boltzmann restringidas y aplicaciones en modelado de distribuciones complejas.",
-      "topics": ["Máquinas de Boltzmann Restringidas", "Algoritmo de Divergencia Contrastiva", "Modelado probabilístico"],
+      "topics": ["Máquinas de Boltzmann Restringidas (RBM)", "Reducción de dimensionalidad con RBM", "Redes de creencia"],
       "hours": 20,
       "sessions": 5,
       "period": "22 de noviembre de 2025 al 5 de diciembre de 2025",
