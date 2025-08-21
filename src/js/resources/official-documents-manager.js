@@ -37,7 +37,6 @@ class OfficialDocumentsManager {
 
         container.innerHTML = `
             ${this.renderDocumentsGrid()}
-            ${this.renderContactInfo()}
         `;
     }
 
@@ -89,20 +88,6 @@ class OfficialDocumentsManager {
         `;
     }
 
-    renderContactInfo() {
-        const { contact_info } = this.documentsData;
-        
-        return `
-            <div class="contact-info-section">
-                <h3 class="contact-info-title">${contact_info.title}</h3>
-                <p class="contact-info-subtitle">${contact_info.subtitle}</p>
-                
-                <div class="contacts-grid">
-                    ${contact_info.contacts.map(contact => this.renderContactCard(contact)).join('')}
-                </div>
-            </div>
-        `;
-    }
 
     renderContactCard(contact) {
         return `

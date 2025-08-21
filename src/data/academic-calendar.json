@@ -5,7 +5,7 @@
     "startDate": "9 de agosto de 2025",
     "endDate": "5 de diciembre de 2025",
     "schedule": "Sábados 10:00am-2:00pm, Miércoles 10:00am-2:00pm",
-    "note": "Se considera como asistencia válida para el estudiante si éste permanece en cada sesión virtual por lo menos 50% del tiempo (2 horas)."
+    "note": ""
   },
   "modules": [
     {
@@ -14,7 +14,7 @@
       "topics": "Algoritmos de optimización, Regresión lineal y logística, Funciones de activación y costo, Algoritmo de retropropagación",
       "hours": 40,
       "sessions": 10,
-      "period": "9 agosto/2025 al 10 septiembre/2025",
+      "period": "9 de agosto de 2025 al 10 de septiembre de 2025",
       "instructor": "Dr. Juan Moisés Arredondo Velázquez",
       "institution": "Centro de investigación y de estudios avanzados del IPN (CINVESTAV), Unidad Tamaulipas"
     },
@@ -24,17 +24,17 @@
       "topics": "Codificación y decodificación, Espacio latente y reducción de dimensionalidad, Autocodificadores variacionales, Generación de datos con autocodificadores",
       "hours": 28,
       "sessions": 7,
-      "period": "13 septiembre/2025 al 1 octubre/2025",
-      "instructor": "Lic. Luis Rey Vargas Guadarrama",
+      "period": "13 de septiembre de 2025 al 4 de octubre de 2025",
+      "instructor": "Lic. Luis Rey Vargaz Guadarrama",
       "institution": "Universidad de Roma La Sapienza"
     },
     {
       "id": "modulo3",
       "name": "Redes Generativas Adversarias (GANs)",
-      "topics": "Discriminador y generador, Entrenamiento adversarial, Generación de datos sintéticos",
+      "topics": "Discriminador y generador, Entrenamiento adversarial, Generación de datos sintéticos usando redes generativas adversarias",
       "hours": 28,
       "sessions": 7,
-      "period": "8 octubre/2025 al 29 octubre/2025",
+      "period": "8 de octubre de 2025 al 29 de octubre de 2025",
       "instructor": "M.C. Gerardo Uriel Pérez Rojas",
       "institution": "Facultad de Ciencias Físico Matemáticas, Benemérita Universidad Autónoma de Puebla"
     },
@@ -44,18 +44,18 @@
       "topics": "RNN, LSTM y GRU, Análisis de series temporales",
       "hours": 24,
       "sessions": 6,
-      "period": "1 noviembre/2025 al 19 noviembre/2025",
+      "period": "1 de noviembre de 2025 al 19 de noviembre de 2025",
       "instructor": "Dr. Juan Moisés Arredondo Velázquez",
       "institution": "Centro de investigación y de estudios avanzados del IPN (CINVESTAV), Unidad Tamaulipas"
     },
     {
       "id": "modulo5",
       "name": "Máquinas restringidas de Boltzmann",
-      "topics": "Reducción de dimensionalidad con RBM, Redes de creencia",
+      "topics": "Reducción de dimensionalidad con m[aquinas restringidas de Boltzmann, Redes de creencia",
       "hours": 20,
       "sessions": 5,
-      "period": "22 noviembre/2025 al 5 diciembre/2025",
-      "instructor": "M.C. Gerardo Uriel Pérez Rojas",
+      "period": "22 de noviembre de 2025 al 5 de diciembre de 2025",
+      "instructor": "Dr. Juan Moisés Arredondo Velázquez",
       "institution": "Facultad de Ciencias Físico Matemáticas, Benemérita Universidad Autónoma de Puebla"
     }
   ]
