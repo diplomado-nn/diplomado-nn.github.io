@@ -44,7 +44,7 @@
     {
       "id": "modulo4",
       "name": "Redes Recurrentes",
-      "description": "Procesamiento de secuencias temporales con Redes neuronales recurrentes, redes de memoria a corto-largo plazo y redes de unidades recurrentes con compuertas. Aplicaciones en procesamiento de series temporales.",
+      "description": "Procesamiento de secuencias temporales con redes neuronales recurrentes, redes de memoria a corto-largo plazo y redes de unidades recurrentes con compuertas. Aplicaciones en procesamiento de series temporales.",
       "topics": ["Redes neuronales recurrentes", "Redes de memoria a corto-largo plazo", "Redes de unidades recurrentes con compuertas", "Análisis de series temporales"],
       "hours": 24,
       "sessions": 6,
@@ -55,7 +55,7 @@
     {
       "id": "modulo5",
       "name": "Máquinas de Boltzmann",
-      "description": "máquinas de Boltzmann restringidas, aplicaciones en reducci[on de dimensionalidad y redes de creencia.",
+      "description": "máquinas de Boltzmann restringidas, aplicaciones en reducción de dimensionalidad y redes de creencia.",
       "topics": ["Máquinas de Boltzmann Restringidas (RBM)", "Reducción de dimensionalidad con RBM", "Redes de creencia"],
       "hours": 20,
       "sessions": 5,
