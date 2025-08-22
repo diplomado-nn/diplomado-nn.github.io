@@ -14,7 +14,7 @@
     {
       "id": "regresion-lineal",
       "title": "Clase 2: Regresión lineal.",
-      "description": "Fundamentos teóricos sobre regresión lineal y su implementación en python, introducción a la función de costo y optimización con gradiente descendente",
+      "description": "Fundamentos teóricos sobre regresión lineal y su implementación en python, introducción a la función de costo y optimización con gradiente descendente.",
       "module": "Módulo 1",
       "moduleId": "modulo1",
       "duration": "3hrs, 44min",
@@ -25,13 +25,24 @@
     {
       "id": "regresion-polinomial",
       "title": "Clase 3: Regresión Polinomial.",
-      "description": "Introducción a la regresión polinomial y su implementación en python, implementación del gradiente descendente utilizando funciones hipótesis no lineales con múltiples parámetros",
+      "description": "Introducción a la regresión polinomial y su implementación en python, implementación del gradiente descendente utilizando funciones hipótesis no lineales con múltiples parámetros.",
       "module": "Módulo 1",
       "moduleId": "modulo1",
       "duration": "3hrs, 20min",
       "youtubeId": "L1QcFJjN_mw",
       "searchTerms": "regresión polinomial funcion hipotesis no lineales",
       "order": 3
+    },
+    {
+      "id": "regresion-multivariable",
+      "title": "Clase 4: Regresión Multivariable y normalización.",
+      "description": "Conceptos básicos de normalización y fundamentos de la regresión multivariable con hipótesis de de múltiples parámetros.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 30min",
+      "youtubeId": "rn1eaeTgBaI",
+      "searchTerms": "regresión multivariable hipotesis varios paámetros",
+      "order": 4
     }
   ]
 }
