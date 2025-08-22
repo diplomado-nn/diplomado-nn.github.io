@@ -32,6 +32,28 @@
       "url": "/assets/pdfs/modulo1/regresion-polinomial.pdf",
       "searchTerms": "regresión polinomial optimización matrices matricial",
       "order": 3
+    }, 
+    {
+      "id": "regresion-multivariable",
+      "title": "Regresión Multivariable",
+      "description": "Introducción a hipótesis multivariables. Motivación para la normalización de características y comparación de resultados normalizados vs. no normalizados.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 4,
+      "url": "/assets/pdfs/modulo1/regresion-multivariable.pdf",
+      "searchTerms": "regresión multinomial normalización",
+      "order": 4
+    }, 
+    {
+      "id": "normalizacion",
+      "title": "Normalización",
+      "description": "Efecto de la normalización sobre la actualización de coeficientes de hipótesis polinomiales en gradiente descendente.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 4,
+      "url": "/assets/pdfs/modulo1/normalizacion.pdf",
+      "searchTerms": "regresión polinomial normalizacion preprocesamiento datos",
+      "order": 5
     }
   ]
 }
