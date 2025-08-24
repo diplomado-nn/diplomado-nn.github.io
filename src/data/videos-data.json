@@ -47,7 +47,7 @@
     {
       "id": "regresion-clasificacion",
       "title": "Clase 5: Clasificación con regresión.",
-      "description": "Repaso sobre regresión multivariable y clasificación binaria utilizando regresión.",
+      "description": "Repaso sobre regresión multivariable e introducción clasificación binaria, mapas de probabilidad y fronteras de decisión utilizando regresión.",
       "module": "Módulo 1",
       "moduleId": "modulo1",
       "duration": "3hrs, 29min",
