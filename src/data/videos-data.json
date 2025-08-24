@@ -43,6 +43,17 @@
       "youtubeId": "rn1eaeTgBaI",
       "searchTerms": "regresión multivariable hipotesis varios paámetros",
       "order": 4
+    },
+    {
+      "id": "regresion-clasificacion",
+      "title": "Clase 5: Clasificación con regresión.",
+      "description": "Repaso sobre regresión multivariable y clasificación binaria utilizando regresión.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 29min",
+      "youtubeId": "ulxhQhrUEec",
+      "searchTerms": "regresión clasificación multivariable frontera decisión",
+      "order": 5
     }
   ]
 }

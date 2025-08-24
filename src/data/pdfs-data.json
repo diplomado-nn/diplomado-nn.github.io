@@ -54,6 +54,28 @@
       "url": "/assets/pdfs/modulo1/normalizacion.pdf",
       "searchTerms": "regresión polinomial normalizacion preprocesamiento datos",
       "order": 5
+    }, 
+    {
+      "id": "clasificacion",
+      "title": "Clasificación",
+      "description": "Introducción a la clasificación de datos con regresión y la construcción de fronteras de decisión.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 5,
+      "url": "/assets/pdfs/modulo1/clasificacion.pdf",
+      "searchTerms": "regresión multivariable clasificación",
+      "order": 6
+    }, 
+    {
+      "id": "clasificacion-sigmoide",
+      "title": "Clasificación Sigmoide",
+      "description": "Fundamentos de las funciones de activación y de la función de costo entropía cruzada para clasificación binaria.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 7,
+      "url": "/assets/pdfs/modulo1/clasificacion-sigmoide.pdf",
+      "searchTerms": "regresión logística funciones activación sigmoide",
+      "order": 7
     }
   ]
 }
