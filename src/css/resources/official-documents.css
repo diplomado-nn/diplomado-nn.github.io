@@ -65,12 +65,14 @@
 }
 
 .document-card {
-  background: var(--color-white);
+  backdrop-filter: blur(5px);
+  background: rgb(255, 255, 255, 0.1);
   border-radius: var(--radius-2xl);
   padding: var(--space-8);
   box-shadow: var(--shadow-neural);
-  border: 1px solid var(--color-border-light);
+  border: 1px solid var(--color-gray-400);
   transition: var(--transition-neural);
+  box-shadow: var(--shadow-xl);
   position: relative;
   overflow: hidden;
 }
@@ -88,7 +90,7 @@
 
 .document-card:hover {
   transform: translateY(-var(--space-2));
-  box-shadow: var(--shadow-xl);
+  box-shadow: var(--shadow-neural);
 }
 
 .document-header {
@@ -101,8 +103,9 @@
 .document-icon {
   width: var(--space-12);
   height: var(--space-12);
-  background: var(--color-primary-100);
+  background: var(--gradient-neural-2);
   border-radius: var(--radius-xl);
+  border: 1px solid var(--color-gray-400);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +118,7 @@
   font-family: var(--font-primary);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-text-primary);
+  color: var(--color-white);
   margin-bottom: var(--space-2);
 }
 
@@ -135,7 +138,7 @@
 .document-description {
   font-family: var(--font-secondary);
   font-size: var(--font-size-base);
-  color: var(--color-text-secondary);
+  color: var(--color-white);
   line-height: var(--line-height-relaxed);
   margin-bottom: var(--space-6);
 }
@@ -161,12 +164,12 @@
 }
 
 .document-btn-primary {
-  background: var(--gradient-primary);
+  background: var(--gradient-neural-1);
   color: var(--color-white);
 }
 
 .document-btn-primary:hover {
-  background: var(--color-primary-dark);
+  background: var(--gradient-neural-2);
   transform: translateY(-var(--space-1));
 }
 
