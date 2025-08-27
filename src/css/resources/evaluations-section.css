@@ -173,12 +173,12 @@
   flex-shrink: 0;
   width: var(--space-12);
   height: var(--space-12);
-  background: var(--color-primary-100);
+  background: var(--gradient-primary);
   border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-primary);
+  color: var(--color-white);
   box-shadow: var(--shadow-primary);
 }
 
@@ -218,8 +218,8 @@
   font-family: var(--font-secondary);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-primary);
-  background-color: var(--color-primary-100);
+  color: var(--color-white);
+  background-color: var(--color-secondary);
   padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-base);
   text-transform: uppercase;

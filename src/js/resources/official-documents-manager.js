@@ -90,33 +90,6 @@ class OfficialDocumentsManager {
         `;
     }
 
-
-    renderContactCard(contact) {
-        return `
-            <div class="contact-card">
-                <h4 class="contact-name">${contact.name}</h4>
-                <p class="contact-role">${contact.role}</p>
-                <p class="contact-institution">${contact.institution}</p>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <svg fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                        </svg>
-                        <a href="mailto:${contact.email}">${contact.email}</a>
-                    </div>
-                    <div class="contact-item">
-                        <svg fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
-                        </svg>
-                        <span>${contact.phone}</span>
-                    </div>
-                </div>
-            </div>
-        `;
-    }
-
     getDocumentIcon(type) {
         const icons = {
             'academic': '📄',
