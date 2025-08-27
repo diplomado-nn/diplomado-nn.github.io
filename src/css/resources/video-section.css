@@ -162,7 +162,8 @@
 
 /* Video Cards */
 .video-card {
-  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(7px);
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius-2xl);
   padding: var(--space-6);
@@ -192,11 +193,6 @@
 .video-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-neural);
-  border-color: rgba(59, 130, 246, 0.3);
-}
-
-.video-card:hover::before {
-  opacity: 1;
 }
 
 .video-thumbnail {
@@ -229,8 +225,8 @@
 .video-title {
   font-family: var(--font-primary);
   font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
   margin-bottom: var(--space-2);
   line-height: var(--line-height-tight);
 }
@@ -238,7 +234,8 @@
 .video-description {
   font-family: var(--font-secondary);
   font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
   line-height: var(--line-height-relaxed);
   margin-bottom: var(--space-3);
   flex: 1;
@@ -276,7 +273,7 @@
 .videos-pagination .pagination-btn {
   position: absolute;
   top: -400px;
-  background: var(--color-primary);
+  background: var(--gradient-neural-3);
   border: none;
   width: 50px;
   height: 50px;
@@ -291,7 +288,7 @@
 }
 
 .videos-pagination .pagination-btn:hover:not(:disabled) {
-  background: var(--color-primary-light);
+  background: var(--gradient-neural-1);
   transform: scale(1.1);
 }
 

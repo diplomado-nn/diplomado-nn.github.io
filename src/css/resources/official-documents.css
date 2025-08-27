@@ -117,7 +117,7 @@
 .document-info h3 {
   font-family: var(--font-primary);
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-bold);
   color: var(--color-white);
   margin-bottom: var(--space-2);
 }
@@ -138,6 +138,7 @@
 .document-description {
   font-family: var(--font-secondary);
   font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
   color: var(--color-white);
   line-height: var(--line-height-relaxed);
   margin-bottom: var(--space-6);
