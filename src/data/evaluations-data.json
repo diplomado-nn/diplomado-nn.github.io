@@ -1,0 +1,13 @@
+{
+  "evaluations": [
+    {
+      "id": "eval1",
+      "moduleId": "modulo1",
+      "title": "Evaluación Módulo 1 - Redes Neuronales Completamente Conectadas",
+      "description": "Evaluación de conocimientos sobre gradiente descendente, regresión lineal, regresión logística.",
+      "pages": 7,
+      "url": "../../assets/pdfs/modulo1/evaluacion-modulo1.pdf",
+      "searchTerms": "evaluacion modulo 1 redes neuronales completamente conectadas"
+    }
+  ]
+}

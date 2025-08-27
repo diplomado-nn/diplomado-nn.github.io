@@ -28,6 +28,15 @@ document.addEventListener('DOMContentLoaded', function() {
             opacity: ${opacity};
         `;
         
+        // Determine correct path for parallax image
+        const getParallaxImagePath = () => {
+            const currentPath = window.location.pathname;
+            if (currentPath.includes('/src/components/')) {
+                return '../../assets/parallax/paralax.svg';
+            }
+            return 'assets/parallax/paralax.svg';
+        };
+
         // Create SVG element for parallax
         const parallaxSvg = document.createElement('div');
         parallaxSvg.className = 'parallax-svg';
@@ -37,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             left: -10%;
             width: 120%;
             height: 120%;
-            background-image: url('./assets/parallax/paralax.svg');
+            background-image: url('${getParallaxImagePath()}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -47,19 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Append elements
         parallaxContainer.appendChild(parallaxSvg);
-        
-        // Insert parallax container as the first child of section
-        // Special handling for philosophy section structure
-        if (selector === '.philosophy-section') {
-            const philosophyBg = section.querySelector('.philosophy-background');
-            if (philosophyBg) {
-                philosophyBg.insertBefore(parallaxContainer, philosophyBg.firstChild);
-            } else {
-                section.insertBefore(parallaxContainer, section.firstChild);
-            }
-        } else {
-            section.insertBefore(parallaxContainer, section.firstChild);
-        }
+        section.insertBefore(parallaxContainer, section.firstChild);
         
         return { section, parallaxSvg, speed };
     }
@@ -67,7 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize parallax for multiple sections
     const parallaxSections = [
         initParallaxSection('.hero', 0.5, 0.7, -40),
-        initParallaxSection('.testimonials', 0.3, 0.7, -160)
+        initParallaxSection('.testimonials', 0.3, 0.7, -160),
+        initParallaxSection('.videos-section', 0.3, 0.7, -50)
     ].filter(Boolean); // Remove null entries
     
     if (parallaxSections.length === 0) {

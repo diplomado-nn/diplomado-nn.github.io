@@ -1,61 +1,45 @@
 /* ================================
-   VIDEO SECTION STYLES
+   EVALUATIONS SECTION STYLES
    Diplomado Neural Networks
    ================================ */
 
-/* Video Section - Background contrastante */
-.videos-section {
-  background: var(--gradient-secondary);
-  padding-top: var(--space-16);
-  position: relative;
-  overflow: hidden;
+/* Evaluations Section */
+.evaluations-section {
+  padding: var(--space-16) 0;
+  background: var(--gradient-instructors);
 }
 
-.videos-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--gradient-neural-surface);
-  opacity: 0.05;
-  pointer-events: none;
-}
-
-.videos-container {
+.evaluations-container {
   max-width: var(--max-width-7xl);
   margin: 0 auto;
   padding: 0 var(--space-6);
-  position: relative;
-  z-index: 1;
 }
 
 /* Header */
-.videos-header {
+.evaluations-header {
   text-align: center;
   margin-bottom: var(--space-12);
 }
 
-.videos-title {
+.evaluations-title {
   font-family: var(--font-primary);
   font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-bold);
-  color: var(--color-white);
+  color: var(--color-text-primary);
   margin-bottom: var(--space-4);
 }
 
-.videos-subtitle {
+.evaluations-subtitle {
   font-family: var(--font-secondary);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-normal);
-  color: var(--color-white);
+  color: var(--color-text-secondary);
   max-width: var(--max-width-2xl);
   margin: 0 auto;
 }
 
 /* Controls */
-.videos-controls {
+.evaluations-controls {
   display: flex;
   flex-direction: column;
   gap: var(--space-6);
@@ -63,59 +47,54 @@
   align-items: center;
 }
 
-.videos-search {
+.evaluations-search {
   position: relative;
   max-width: var(--max-width-md);
   width: 100%;
 }
 
-.videos-search .search-input {
+.evaluation-search-input {
   width: 100%;
   padding: var(--space-3) var(--space-4);
   padding-right: var(--space-10);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   font-family: var(--font-secondary);
   font-size: var(--font-size-base);
-  background-color: rgba(255, 255, 255, 0.1);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-text-primary);
   transition: var(--transition-neural);
 }
 
-.videos-search .search-input:focus {
+.evaluation-search-input:focus {
   outline: none;
-  border-color: var(--color-primary-300);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-  background-color: rgba(255, 255, 255, 0.15);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-100);
 }
 
-.videos-search .search-input::placeholder {
-  color: var(--color-primary-200);
-}
-
-.videos-search .search-icon {
+.evaluation-search-icon {
   position: absolute;
   right: var(--space-3);
   top: 50%;
   transform: translateY(-50%);
   width: var(--space-5);
   height: var(--space-5);
-  color: var(--color-primary-200);
+  color: var(--color-text-tertiary);
   pointer-events: none;
 }
 
-.videos-filters {
+.evaluations-filters {
   display: flex;
   gap: var(--space-2);
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.video-filter {
+.evaluation-filter {
   padding: var(--space-2) var(--space-4);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background-color: rgba(255, 255, 255, 0.1);
-  color: var(--color-primary-200);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  color: var(--color-text-secondary);
   border-radius: var(--radius-lg);
   font-family: var(--font-secondary);
   font-size: var(--font-size-sm);
@@ -124,52 +103,51 @@
   transition: var(--transition-neural);
 }
 
-.video-filter:hover {
-  border-color: var(--color-primary-300);
-  color: var(--color-white);
-  background-color: rgba(255, 255, 255, 0.15);
+.evaluation-filter:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-50);
 }
 
-.video-filter.active {
+.evaluation-filter.active {
   background-color: var(--color-primary);
   color: var(--color-white);
   border-color: var(--color-primary);
 }
 
 /* Content Area - Fixed Size */
-.videos-content {
-  min-height: 80vh;
+.evaluations-content {
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-/* Video Grid - Fixed Height */
-.videos-grid {
+/* Evaluations Grid - Fixed Height */
+.evaluations-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  gap: var(--space-6);
-  min-height: 720px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-4);
+  min-height: 400px;
 }
 
-/* Video Cards */
-.video-card {
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+/* Evaluation Cards */
+.evaluation-card {
+  background: var(--color-gray-100);
   border-radius: var(--radius-2xl);
   padding: var(--space-6);
   display: flex;
-  flex-direction: column;
   gap: var(--space-4);
   position: relative;
   transition: var(--transition-neural);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-primary);
+  border: 1px solid var(--gradient-rainbow);
   cursor: pointer;
-  height: 340px;
+  height: 220px;
   overflow: hidden;
 }
 
-.video-card::before {
+.evaluation-card::before {
   content: '';
   position: absolute;
   top: 0;
@@ -181,44 +159,39 @@
   transition: var(--transition-neural);
 }
 
-.video-card:hover {
+.evaluation-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-neural);
-  border-color: rgba(59, 130, 246, 0.3);
+  border-color: var(--color-primary-200);
 }
 
-.video-card:hover::before {
+.evaluation-card:hover::before {
   opacity: 1;
 }
 
-.video-thumbnail {
-  width: 100%;
-  height: 230px;
+.evaluation-icon {
+  flex-shrink: 0;
+  width: var(--space-12);
+  height: var(--space-12);
+  background: var(--color-primary-100);
   border-radius: var(--radius-lg);
-  overflow: hidden;
-  background-color: var(--color-gray-100);
-  position: relative;
-  cursor: pointer;
-}
-
-.video-thumbnail iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  pointer-events: none;
-}
-
-.video-card-expanded .video-thumbnail iframe {
-  pointer-events: auto;
-}
-
-.video-info {
-  flex: 1;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  box-shadow: var(--shadow-primary);
 }
 
-.video-title {
+.evaluation-icon svg {
+  width: var(--space-6);
+  height: var(--space-6);
+}
+
+.evaluation-info {
+  flex: 1;
+}
+
+.evaluation-title {
   font-family: var(--font-primary);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
@@ -227,36 +200,34 @@
   line-height: var(--line-height-tight);
 }
 
-.video-description {
+.evaluation-description {
   font-family: var(--font-secondary);
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   line-height: var(--line-height-relaxed);
   margin-bottom: var(--space-3);
-  flex: 1;
 }
 
-.video-meta {
+.evaluation-meta {
   display: flex;
   gap: var(--space-3);
   align-items: center;
 }
 
-
-.video-duration {
+.evaluation-pages {
   font-family: var(--font-secondary);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-white);
-  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-100);
   padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-base);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
 }
 
-/* Pagination - Igual que PDFs pero con colores adaptados */
-.videos-pagination {
+/* Pagination */
+.evaluations-pagination {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,9 +236,9 @@
   position: relative;
 }
 
-.videos-pagination .pagination-btn {
+.evaluation-pagination-btn {
   position: absolute;
-  top: -400px;
+  top: -230px;
   background: var(--color-primary);
   border: none;
   width: 50px;
@@ -282,42 +253,43 @@
   box-shadow: var(--shadow-primary);
 }
 
-.videos-pagination .pagination-btn:hover:not(:disabled) {
+.evaluation-pagination-btn:hover:not(:disabled) {
   background: var(--color-primary-light);
   transform: scale(1.1);
 }
 
-.videos-pagination .pagination-btn:disabled {
+.evaluation-pagination-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.videos-pagination .pagination-btn:disabled:hover {
+.evaluation-pagination-btn:disabled:hover {
   transform: none;
   background: var(--color-primary);
 }
 
-.videos-pagination .pagination-btn svg {
+.evaluation-pagination-btn svg {
   width: 20px;
   height: 20px;
   color: var(--color-white);
 }
 
-#videosPrevBtn {
+#evaluationsPrevBtn {
   left: -60px;
 }
 
-#videosNextBtn {
+#evaluationsNextBtn {
   right: -60px;
 }
 
-.videos-pagination .pagination-indicators {
+.evaluation-pagination-indicators {
   display: flex;
   justify-content: center;
   gap: var(--space-3);
+  padding: var(--space-10) 0 0 0;
 }
 
-.videos-pagination .pagination-indicator {
+.evaluation-pagination-indicator {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -327,26 +299,24 @@
   transition: var(--transition-neural);
 }
 
-.videos-pagination .pagination-indicator.active {
+.evaluation-pagination-indicator.active {
   background: var(--color-primary);
   transform: scale(1.2);
 }
 
-.videos-pagination .pagination-info {
+.evaluation-pagination-info {
   display: none;
 }
 
-
-
 /* Filter Animation */
-.video-card {
+.evaluation-card {
   opacity: 1;
   transform: scale(1);
   transition: opacity var(--duration-300) var(--ease-out), 
               transform var(--duration-300) var(--ease-out);
 }
 
-.video-card.hidden {
+.evaluation-card.hidden {
   opacity: 0;
   transform: scale(0.95);
   pointer-events: none;
@@ -356,101 +326,90 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .videos-container {
+  .evaluations-container {
     padding: 0 var(--space-4);
   }
   
-  .videos-title {
-    font-size: var(--font-size-3xl);
+  .evaluations-title {
+    font-size: var(--font-size-4xl);
   }
   
-  .videos-subtitle {
+  .evaluations-subtitle {
     font-size: var(--font-size-base);
   }
   
-  .videos-grid {
+  .evaluations-grid {
     display: flex;
     flex-direction: column;
-    gap: var(--space-4);
-    min-height: 600px;
+    gap: var(--space-3);
+    min-height: 500px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
   }
   
-  .videos-controls {
+  .evaluations-controls {
     gap: var(--space-4);
   }
   
-  .videos-filters {
+  .evaluations-filters {
     gap: var(--space-1);
   }
   
-  .video-filter {
+  .evaluation-filter {
     font-size: var(--font-size-xs);
     padding: var(--space-2) var(--space-3);
   }
-
-  .videos-pagination {
-    margin-bottom: 0;
-    padding: 0;
-  }
   
-  .videos-pagination .pagination-btn,
-  #videosPrevBtn,
-  #videosNextBtn {
+  .evaluation-pagination-btn,
+  #evaluationsPrevBtn,
+  #evaluationsNextBtn {
     display: none !important;
   }
-  
-  .video-card-expanded .video-thumbnail {
-    height: fit-content;
+
+  .evaluations-pagination {
+    margin-bottom: 0;
+    padding: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .videos-section {
+  .evaluations-section {
     padding: var(--space-12) 0;
   }
   
-  .videos-header {
+  .evaluations-header {
     margin-bottom: var(--space-8);
   }
   
-  .videos-controls {
+  .evaluations-controls {
     margin-bottom: var(--space-8);
   }
   
-  .video-card {
+  .evaluation-card {
     padding: var(--space-4);
-    height: 320px;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
   }
   
-  .video-thumbnail {
-    height: 180px;
+  .evaluation-icon {
+    align-self: center;
+    margin-bottom: var(--space-2);
   }
   
-  .videos-pagination .pagination-btn,
-  #videosPrevBtn,
-  #videosNextBtn {
+  .evaluation-pagination-btn,
+  #evaluationsPrevBtn,
+  #evaluationsNextBtn {
     display: none !important;
   }
   
-  .videos-pagination .pagination-indicators {
+  .evaluation-pagination-indicators {
     gap: var(--space-2);
   }
   
-  .videos-pagination .pagination-indicator {
+  .evaluation-pagination-indicator {
     width: 10px;
     height: 10px;
   }
-  
-  .video-card-expanded .video-thumbnail {
-    height: 250px;
-  }
-  
-  .video-back-btn {
-    padding: var(--space-1) var(--space-3);
-    font-size: var(--font-size-xs);
-  }
-  
 }

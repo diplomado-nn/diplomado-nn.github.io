@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/resources/layout.css">
     <link rel="stylesheet" href="../css/resources/pdf-section.css">
     <link rel="stylesheet" href="../css/resources/video-section.css">
+    <link rel="stylesheet" href="../css/resources/evaluations-section.css">
     <link rel="stylesheet" href="../css/resources/official-documents.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,6 +87,7 @@
                     </div>
                 </section>
             </div>    
+            
             <section class="videos-section" id="videos-section">
                 <div class="videos-container">
                     <div class="videos-header">
@@ -142,6 +144,62 @@
                 </div>
             </section>
             
+            <section class="evaluations-section" id="evaluations-section">
+                <div class="evaluations-container">
+                    <div class="evaluations-header">
+                        <h1 class="evaluations-title">Evaluaciones y Exámenes</h1>
+                        <p class="evaluations-subtitle">
+                            Accede a las evaluaciones, exámenes y proyectos de cada módulo del diplomado
+                        </p>
+                    </div>
+
+                    <div class="evaluations-controls">
+                        <div class="evaluations-search">
+                            <input type="text" class="evaluation-search-input" placeholder="Buscar evaluación..." id="evaluationSearchInput">
+                            <svg class="evaluation-search-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="evaluations-filters">
+                            <button class="evaluation-filter active" data-module="all">Todas</button>
+                            <button class="evaluation-filter" data-module="modulo1">Módulo 1</button>
+                            <!-- <button class="evaluation-filter" data-module="modulo2">Módulo 2</button>
+                            <button class="evaluation-filter" data-module="modulo3">Módulo 3</button>
+                            <button class="evaluation-filter" data-module="modulo4">Módulo 4</button> -->
+                        </div>
+                    </div>
+
+                    <div class="evaluations-content">
+                        <div class="evaluations-grid" id="evaluationsGrid">
+                            <!-- Evaluation cards will be generated dynamically -->
+                        </div>
+
+                        <div class="evaluations-pagination" id="evaluationsPagination">
+                            <button class="evaluation-pagination-btn" id="evaluationsPrevBtn" disabled>
+                                <svg fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </button>
+                            
+                            <div class="evaluation-pagination-indicators" id="evaluationsPaginationIndicators">
+                                <!-- Indicators will be generated dynamically -->
+                            </div>
+                            
+                            <button class="evaluation-pagination-btn" id="evaluationsNextBtn" disabled>
+                                <svg fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                                </svg>
+                            </button>
+                            
+                            <div class="evaluation-pagination-info">
+                                <span id="evaluationsPageInfo">Página 1 de 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
             <section class="official-documents-section" id="official-documents-section">
                 <div class="official-documents-container">
                     <div class="official-documents-header">
@@ -189,6 +247,7 @@
     <script src="../js/resources/pdf-manager.js"></script>
     <script src="../js/resources/video-manager.js"></script>
     <script src="../js/home/parallax.js"></script>
+    <script src="../js/resources/evaluations-manager.js"></script>
     <script src="../js/resources/official-documents-manager.js"></script>
 </body>
 </html>
