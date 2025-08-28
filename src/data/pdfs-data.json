@@ -63,7 +63,7 @@
       "moduleId": "modulo1",
       "pages": 5,
       "url": "/assets/pdfs/modulo1/clasificacion.pdf",
-      "searchTerms": "regresión multivariable clasificación",
+      "searchTerms": "regresión multivariable clasificación binaria",
       "order": 6
     }, 
     {
@@ -74,8 +74,19 @@
       "moduleId": "modulo1",
       "pages": 7,
       "url": "/assets/pdfs/modulo1/clasificacion-sigmoide.pdf",
-      "searchTerms": "regresión logística funciones activación sigmoide",
+      "searchTerms": "regresión logística funciones activación sigmoide clasificación binaria",
       "order": 7
+    }, 
+    {
+      "id": "clasificacion-muticlase",
+      "title": "Clasificación Multiclase",
+      "description": "Explicación del proceso para la clasificación multiclase con entropía cruzada y si integración en el gradiente descendente.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 6,
+      "url": "/assets/pdfs/modulo1/clasificacion-multiclase.pdf",
+      "searchTerms": "regresión logística activación sigmoide clasificación multiclase",
+      "order": 8
     }
   ]
 }

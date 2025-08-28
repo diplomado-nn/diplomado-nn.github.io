@@ -46,14 +46,25 @@
     },
     {
       "id": "regresion-clasificacion",
-      "title": "Clase 5: Clasificación con regresión.",
-      "description": "Repaso sobre regresión multivariable e introducción clasificación binaria, mapas de probabilidad y fronteras de decisión utilizando regresión.",
+      "title": "Clase 5: Clasificación con regresión lineal.",
+      "description": "Repaso sobre regresión multivariable e introducción clasificación binaria, mapas de probabilidad y fronteras de decisión utilizando regresión lineal.",
       "module": "Módulo 1",
       "moduleId": "modulo1",
       "duration": "3hrs, 29min",
       "youtubeId": "ulxhQhrUEec",
-      "searchTerms": "regresión clasificación multivariable frontera decisión",
+      "searchTerms": "regresión clasificación binaria frontera decisión",
       "order": 5
+    },
+    {
+      "id": "regresion-clasificacion",
+      "title": "Clase 6: Clasificación con regresión logística.",
+      "description": "Introducción a la función sigmoide y su integración con el algoritmo gradiente descendente para clasificación binaria con regresión logística.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 23min",
+      "youtubeId": "saGwY-Tl7Tw",
+      "searchTerms": "regresión logística clasificación binaria frontera decisión activación sigmoide",
+      "order": 6
     }
   ]
 }
