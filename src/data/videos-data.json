@@ -41,11 +41,11 @@
       "moduleId": "modulo1",
       "duration": "3hrs, 30min",
       "youtubeId": "rn1eaeTgBaI",
-      "searchTerms": "regresión multivariable hipotesis varios paámetros",
+      "searchTerms": "regresión multivariable hipotesis varios parámetros",
       "order": 4
     },
     {
-      "id": "regresion-clasificacion",
+      "id": "linear-regresion-clasificacion",
       "title": "Clase 5: Clasificación con regresión lineal.",
       "description": "Repaso sobre regresión multivariable e introducción clasificación binaria, mapas de probabilidad y fronteras de decisión utilizando regresión lineal.",
       "module": "Módulo 1",
@@ -56,7 +56,7 @@
       "order": 5
     },
     {
-      "id": "regresion-clasificacion",
+      "id": "logistic-regresion-clasificacion",
       "title": "Clase 6: Clasificación con regresión logística.",
       "description": "Introducción a la función sigmoide y su integración con el algoritmo gradiente descendente para clasificación binaria con regresión logística.",
       "module": "Módulo 1",
@@ -65,6 +65,28 @@
       "youtubeId": "saGwY-Tl7Tw",
       "searchTerms": "regresión logística clasificación binaria frontera decisión activación sigmoide",
       "order": 6
+    },
+    {
+      "id": "clasificacion-multiclase",
+      "title": "Clase 7: Clasificación multiclase",
+      "description": "Extensión de la función sigmoide para la clasificación de datos con múltiples clases e introducción a la función softmax para clasificación multiclase.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 34min",
+      "youtubeId": "z_Naznh5Kx0",
+      "searchTerms": "clasificación múlticlase softmax sigmoide frontera de decision regresion logistica",
+      "order": 7
+    },
+    {
+      "id": "redes-neuronales",
+      "title": "Clase 8: Redes neuronales y retropropagación",
+      "description": "Introducción a las redes neuronales completamente conectadas y a al algortimo de retropropagación para el cálculo de derivadas de los parámetros.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 43min",
+      "youtubeId": "0Z9d-ZkcW-c",
+      "searchTerms": "redes neuronales softmax retropropagacion propagacion adelante error",
+      "order": 8
     }
   ]
 }

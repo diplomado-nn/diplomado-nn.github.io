@@ -87,6 +87,50 @@
       "url": "/assets/pdfs/modulo1/clasificacion-multiclase.pdf",
       "searchTerms": "regresión logística activación sigmoide clasificación multiclase",
       "order": 8
+    },
+    {
+      "id": "clasificacion-binaria-softmax",
+      "title": "Clasificación Binaria (Activación Softmax)",
+      "description": "Aplicación de la función softmax en clasificación binaria con optimización por gradiente descendente.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 9,
+      "url": "/assets/pdfs/modulo1/clasificacion-softmax.pdf",
+      "searchTerms": "clasificación binaria softmax polinomios hipótesis gradiente descendente entropía cruzada multiclase",
+      "order": 9
+    },
+    {
+      "id": "redes-neuronales-completamente-conectadas",
+      "title": "Redes Neuronales Completamente Conectadas",
+      "description": "Fundamentos de redes neuronales artificiales, arquitectura de capas y entrenamiento con retropropagación.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 12,
+      "url": "/assets/pdfs/modulo1/redes-neuronales.pdf",
+      "searchTerms": "redes neuronales artificiales RNA capas ocultas propagación adelante backpropagation sigmoide clasificación binaria",
+      "order": 11
+    },
+    {
+      "id": "redes-neuronales-softmax",
+      "title": "Redes Neuronales (Activación Softmax)",
+      "description": "Implementación de clasificación multiclase en redes neuronales usando función softmax y retropropagación.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 7,
+      "url": "/assets/pdfs/modulo1/redes-neuronales-softmax.pdf",
+      "searchTerms": "redes neuronales softmax clasificación multiclase retropropagación backpropagation gradiente descendente momentum",
+      "order": 10
+    },
+    {
+      "id": "tamano-lote",
+      "title": "Tamaño de Lote",
+      "description": "Análisis del impacto del tamaño de lote en el entrenamiento y comparación de métodos de gradiente descendente.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "pages": 8,
+      "url": "/assets/pdfs/modulo1/Batch.pdf",
+      "searchTerms": "tamaño lote batch mini-batch stochastic gradient descent entrenamiento optimización convergencia",
+      "order": 12
     }
   ]
 }
