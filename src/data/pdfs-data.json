@@ -131,6 +131,50 @@
       "url": "/assets/pdfs/modulo1/Batch.pdf",
       "searchTerms": "tamaño lote batch mini-batch stochastic gradient descent entrenamiento optimización convergencia",
       "order": 12
+    },
+    {
+      "id": "autoencoders-introduccion",
+      "title": "Autoencoders",
+      "description": "Introducción al concepto de autoencoders, arquitectura encoder–decoder, representación latente, cuello de botella y compresión de datos.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "pages": 6,
+      "url": "/assets/pdfs/modulo2/autoencoders_introducción.pdf",
+      "searchTerms": "autoencoders encoder decoder representación latente cuello de botella compresión reconstrucción redes neuronales no supervisado",
+      "order": 13
+    },
+    {
+      "id": "aplicaciones-basicas-ae",
+      "title": "Aplicaciones Básicas de Autoencoders",
+      "description": "Exploración de aplicaciones fundamentales de los autoencoders en la reducción de ruido y la detección de anomalías.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "pages": 7,
+      "url": "/assets/pdfs/modulo2/aplicaciones-basicas-AE.pdf",
+      "searchTerms": "autoencoders denoising reducción de ruido detección de anomalías error de reconstrucción redes neuronales",
+      "order": 14
+    },
+    {
+      "id": "espacio-latente",
+      "title": "Espacio Latente",
+      "description": "Introducción al espacio latente en autoencoders, continuidad semántica, organización de características y representación.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "pages": 6,
+      "url": "/assets/pdfs/modulo2/espacio-latente.pdf",
+      "searchTerms": "autoencoders espacio latente representación comprimida continuidad semántica organización características",
+      "order": 15
+    },
+    {
+      "id": "gradiente-descendente-momentum",
+      "title": "Gradiente Descendente con Momento",
+      "description": "Algoritmo de gradiente descendente incorporando un término de momento. Explicación teórica, ventajas y ejemplos.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "pages": 4,
+      "url": "/assets/pdfs/modulo2/gradiente-descendete-momentum.pdf",
+      "searchTerms": "gradiente descendente momento optimización convergencia mínimos locales inercia",
+      "order": 16
     }
   ]
 }

@@ -87,6 +87,30 @@
       "youtubeId": "0Z9d-ZkcW-c",
       "searchTerms": "redes neuronales softmax retropropagacion propagacion adelante error",
       "order": 8
+    },
+    {
+      "id": "ajuste-subajuste-batch",
+      "title": "Clase 9: Sobrejuste, subajuste y entrenamiento por Lotes",
+      "description": "Explicación de los conceptos de ajuste y subajuste en modelos de aprendizaje automático. Se introduce también el entrenamiento por lotes, mini-batch y estocástico, comparando sus ventajas y desventajas.",
+      "module": "Módulo 1",
+      "moduleId": "modulo1",
+      "duration": "3hrs, 26min",
+      "youtubeId": "emwRuHvJVRQ",
+      "searchTerms": "ajuste subajuste sobreajuste underfitting overfitting entrenamiento por lotes batch mini-batch SGD",
+      "order": 9
+    },
+    {
+      "id": "implementacion-red-modular",
+      "title": "Clase 11: Implementación Modular de Red Neuronal",
+      "description": "Implementación completa y modular de una red neuronal. Se repasan los conceptos del Módulo 1 para construir un código organizado que para la creación de redes neuronales.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "duration": "3hrs, 29min",
+      "youtubeId": "J16NInohNL0",
+      "searchTerms": "implementación modular redes neuronales backpropagation arquitectura entrenamiento desde cero",
+      "order": 10
     }
+
+
   ]
 }
