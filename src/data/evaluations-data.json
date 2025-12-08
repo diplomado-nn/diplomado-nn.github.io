@@ -8,6 +8,33 @@
       "pages": 7,
       "url": "../../assets/pdfs/modulo1/evaluacion-modulo1.pdf",
       "searchTerms": "evaluacion modulo 1 redes neuronales completamente conectadas"
+    },
+    {
+      "id": "ensayo1",
+      "moduleId": "modulo1",
+      "title": "Ensayo - Requisito para Entregas Tardías",
+      "description": "Ensayo reflexivo sobre motivaciones académicas y aspiraciones en investigación científica.",
+      "pages": 2,
+      "url": "../../assets/pdfs/modulo1/EnsayoEstudiantes.pdf",
+      "searchTerms": "ensayo requisito entregas tardias motivaciones academicas investigacion"
+    },
+    {
+      "id": "eval2",
+      "moduleId": "modulo2",
+      "title": "Evaluación Módulo 2 - Autoencoders",
+      "description": "Evaluación sobre compresión, reconstrucción, detección de anomalías y exploración del espacio latente.",
+      "pages": 7,
+      "url": "../../assets/pdfs/modulo2/evaluación-modulo-2.pdf",
+      "searchTerms": "evaluacion modulo 2 autoencoders"
+    },
+    {
+      "id": "eval3",
+      "moduleId": "modulo3",
+      "title": "Evaluación Módulo 3 - Redes Generativas Adversarias",
+      "description": "Evaluación sobre redes generativas adversarias, calidad y varianza de generación, transferencia y robustez.",
+      "pages": 7,
+      "url": "../../assets/pdfs/modulo3/evaluacion-modulo-3.pdf",
+      "searchTerms": "evaluacion modulo 3 gans redes generativas adversarias"
     }
   ]
 }
