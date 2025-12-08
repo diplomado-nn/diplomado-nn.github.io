@@ -175,6 +175,28 @@
       "url": "/assets/pdfs/modulo2/gradiente-descendete-momentum.pdf",
       "searchTerms": "gradiente descendente momento optimización convergencia mínimos locales inercia",
       "order": 16
+    },
+    {
+      "id": "optimizador-adam",
+      "title": "Adam (Optimizador Adaptativo)",
+      "description": "Algoritmo de optimización Adam combinando ventajas de Adagrad y RMSProp con estimación adaptativa de momentos.",
+      "module": "Módulo 3",
+      "moduleId": "modulo3",
+      "pages": 5,
+      "url": "/assets/pdfs/modulo3/adam.pdf",
+      "searchTerms": "adam optimizador adaptativo momento adagrad rmsprop convergencia",
+      "order": 17
+    },
+    {
+      "id": "redes-generativas-adversarias",
+      "title": "Redes Generativas Adversarias (GANs)",
+      "description": "Arquitectura generador-discriminador, entrenamiento adversarial min-max y divergencia Jensen-Shannon en GANs.",
+      "module": "Módulo 3",
+      "moduleId": "modulo3",
+      "pages": 10,
+      "url": "/assets/pdfs/modulo3/GNAs.pdf",
+      "searchTerms": "gans redes generativas adversarias generador discriminador entrenamiento adversarial",
+      "order": 18
     }
   ]
 }

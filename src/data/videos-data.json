@@ -109,8 +109,94 @@
       "youtubeId": "J16NInohNL0",
       "searchTerms": "implementación modular redes neuronales backpropagation arquitectura entrenamiento desde cero",
       "order": 10
+    },
+    {
+      "id": "espacio-latente-bottleneck",
+      "title": "Clase 12: Espacio Latente y Cuello de Botella",
+      "description": "Introducción al concepto de espacio latente y la importancia del cuello de botella para la extracción de características significativas. Ejemplo demostrando los efectos de la compresión excesiva en la pérdida de información.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "duration": "3hrs, 35min",
+      "youtubeId": "gJZyB4hn4c0",
+      "searchTerms": "espacio latente bottleneck cuello botella extracción características compresión autoencoder",
+      "order": 11
+    },
+    {
+      "id": "autoencoders-validacion",
+      "title": "Clase 13: Reduccion de ruido y datos de validacion",
+      "description": "Implementación de autoencoders para preservar relaciones espaciales y reducción de ruido en ondas sinusoidales. Introducción a la validación durante el entrenamiento, análisis de errores comunes y evaluación de la capacidad de generalización con datos no vistos.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "duration": "3hrs, 34min",
+      "youtubeId": "3lqdWZlm0hY",
+      "searchTerms": "autoencoders validación entrenamiento generalización reducción ruido espacio latente ondas sinusoidales",
+      "order": 12
+    },
+    {
+      "id": "deteccion-anomalias-mnist",
+      "title": "Clase 14: Detección de Anomalías y Dataset MNIST",
+      "description": "Implementación de detección de anomalías con autoencoders, entrenamiento y análisis de resultados incluyendo falsos positivos y falsos negativos. Vectorización de imágenes, división en subimágenes e introducción al dataset MNIST para aplicaciones de reducción de ruido y detección de anomalías.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "duration": "3hrs, 35min",
+      "youtubeId": "_on95kZspPs",
+      "searchTerms": "detección anomalías autoencoders MNIST vectorización imágenes falsos positivos negativos dataset",
+      "order": 13
+    },
+    {
+      "id": "mnist-gradiente-momento",
+      "title": "Clase 15: MNIST, Desvanecimiento del Gradiente y Momento",
+      "description": "Manejo de imágenes MNIST para reducción de ruido con autoencoders. Explicación del problema del desvanecimiento del gradiente e introducción al algoritmo de optimización gradiente descendente con momento.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "duration": "3hrs, 24min",
+      "youtubeId": "gkaUU8lYAI0",
+      "searchTerms": "MNIST autoencoders reducción ruido desvanecimiento gradiente momento optimización momentum",
+      "order": 14
+    },
+    {
+      "id": "espacio-latente-vae",
+      "title": "Clase 16: Espacio Latente y Autoencoders Variacionales",
+      "description": "Profundización en el espacio latente, organización, barrido y continuidad semántica para la generación de datos nuevos con autoencoders. Introducción teórica a los autoencoders variacionales (VAE), su naturaleza probabilística y diferencias principales con los autoencoders tradicionales.",
+      "module": "Módulo 2",
+      "moduleId": "modulo2",
+      "duration": "3hrs, 54min",
+      "youtubeId": "-Ndzd7770yo",
+      "searchTerms": "espacio latente VAE autoencoders variacionales continuidad semántica generación datos probabilístico",
+      "order": 15
+    },
+    {
+      "id": "adam-leaky-relu",
+      "title": "Clase 18: Optimizador Adam y Leaky ReLU",
+      "description": "Introducción al optimizador Adam y la función de activación Leaky ReLU con implementación en código. Comparación de rendimiento entre optimizadores ya utilizados y el optimizador Adam.",
+      "module": "Módulo 3",
+      "moduleId": "modulo3",
+      "duration": "3hrs, 35min",
+      "youtubeId": "ae2vgcevxyM",
+      "searchTerms": "Adam optimizador Leaky ReLU función activación comparación optimizadores momentum",
+      "order": 17
+    },
+    {      
+      "id": "gans-introduccion",
+      "title": "Clase 19: Redes Generativas Adversariales (GANs)",
+      "description": "Introducción a las redes generativas adversariales (GANs), método de entrenamiento y componentes básicas: discriminador y generador. Implementación en código de la arquitectura GAN.",
+      "module": "Módulo 3",
+      "moduleId": "modulo3",
+      "duration": "3hrs, 33min",
+      "youtubeId": "-IZQT_WjEdE",
+      "searchTerms": "GANs redes generativas adversariales discriminador generador entrenamiento adversarial",
+      "order": 18
+    },
+    {
+      "id": "gans-mnist-implementacion",
+      "title": "Clase 21: Implementación y Evaluación de GANs con MNIST",
+      "description": "Implementación práctica de redes generativas adversariales aplicadas al dataset MNIST. Técnicas de entrenamiento, evaluación de la calidad de imágenes generadas, análisis de métricas de desempeño y resolución de problemas comunes.",
+      "module": "Módulo 3",
+      "moduleId": "modulo3",
+      "duration": "3hrs, 08min",
+      "youtubeId": "Dt_1WF2h9xg",
+      "searchTerms": "GANs MNIST implementación evaluación generación imágenes mode collapse métricas calidad entrenamiento adversarial",
+      "order": 20
     }
-
-
   ]
 }
